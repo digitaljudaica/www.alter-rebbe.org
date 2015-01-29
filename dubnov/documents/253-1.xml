@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="part">Окончанie</title>
+        <title type="main">No 3. Запросъ генералъ-прокурора П. X. Обольянинова Литовскому военному губернатору о сектѣ Шабзусъ-Цвинкусъ"</title>
+        <author>
+          <persName>?</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian">?</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="19-kislev-archive.podval.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="090-2.xml">090-2</ref>
+          <ref xml:id="self" target="253-1.xml">253-1</ref>
+          <ref xml:id="next" target="253-2.xml">253-2</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ru"/>
+      </langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="ru">
+    <body>
+      <pb xml:id="p253" n="253" facs="../facsimiles/253.jpg"/>
+      <salute>Милостивый государь мой Михайло Иларіоновичъ</salute>
+      <p>Имея высочайшае Е. И. В. повелѣнiе разсмотреть препровождаемую при семъ жалобу бывшаго въ Пинске оберть-раббина
+        Хаима на притѣсненiя, чинимыя ему последователями секты Шаб 3 усть-Цв инку съ, прошу ваше
+        высокопревосходительство приказать все обстоятельства оныя, чрезъ кого следуетъ, привести въ ясность,именно
+        состоитъ сiя секта и претензия на нее еврея Хаима"), также — можетъ ли она быть удовлетворена и на какомъ
+        основании,— не оставить меня вашимъ уведомленiемъ.</p>
+      <closer>
+        <signed>Съ совершеннымъ почтенiемъ есмь . . . (Обольяниновъ7).</signed>
+        <dateline>
+          <date>Iюня 7 дня 1800 года.</date>
+          No 4722.
+        </dateline>
+        <p>Голенищеву-Кутузову.</p>
+      </closer>
+      
+      <note xml:id="p253n1"><hi rend="subscript">1</hi>) стр. 84 сл.</note>
+      <note xml:id="p253n2"><hi rend="subscript">2</hi>) Авигдоръ Хаимовичъ въ этихъ документахъ часто ошибочно именуется</note>
+    </body>
+  </text>
+</TEI>

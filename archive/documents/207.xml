@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">?</title>
+        <author>
+          <persName>?</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian">?</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="19-kislev-archive.podval.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="206.xml">206</ref>
+          <ref xml:id="self" target="207.xml">207</ref>
+          <ref xml:id="next" target="208.xml">208</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="he"/>
+      </langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="he">
+    <body>
+      <pb xml:id="p207-1" n="207-1" facs="../facsimiles/207-1.jpg"/>
+    </body>
+  </text>
+</TEI>

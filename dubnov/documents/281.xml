@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Послесловие</title>
+        <author>
+          <persName>Дубнов</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian">?</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="19-kislev-archive.podval.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="280.xml">280</ref>
+          <ref xml:id="self" target="281.xml">281</ref>
+          <ref xml:id="next" target="427.xml">427</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ru"/>
+      </langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="ru">
+    <body>
+      <pb xml:id="p281" n="281" facs="../facsimiles/281.jpg"/>
+      <p>Много света вносятъ все вышеприведенные оффициальные документы въ темное „дело Залмана" 1798—1801 г., т. е. въ
+        историю достопамятной борьбы между хасидами и миснаВыделенные изъ архивнаго хаоса, правильно сгруппиро ванные
+        (какъ мы это старались сделать въ настоящнЙ статье) и сопоставленные съ еврейскими источниками, эти документы ри
+          <pb xml:id="p282" n="282" facs="../facsimiles/282.jpg"/> сують яркую картину тогдашней междоусобицы въ среде
+        россiйскихъ евреевъ и той деморализации, которую вносило туда вмешательство русскаго правительства. Роль
+        анти-хасидовъ въ этой борьбе была бы ужь очень позорна, если бы можно было допустить, что уполномоченнымъ; но
+        оффиціальные документы показываютъ, что раввинъ вовалъ более изъ личныхъ корыстныхъ побуждений, и нигде не
+        видно, чтобы за его спиною стояла организованная партия. Личность Залмана въ процессе освещается съ выгодной
+        стороны. Роль же правительства, ворвавшагося въ совершенно чуждую ему религиозную борьбу, сводится къ обычной
+        миссии русской бюрократiи въ подобныхъ длахъ: полная неосведомленность о внутренней жизни евреевъ и, вследствіе
+        этого, благосклонность къ доносамъ, рядъ произвольныхъ арестовъ, обысковъ, допросовъ, безконечная переписка
+        между ведомствами—для того, чтобы наконецъ убедиться, что возбужденное „дело" къ потрясению основъ русской
+        государственности никакого отношения не имееть. </p>
+      <p> С. Дубновь.</p>
+    </body>
+  </text>
+</TEI>

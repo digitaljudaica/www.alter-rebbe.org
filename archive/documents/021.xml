@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Объяснение о начале и правилах секты Каролинов – первое приложение к докладу Булгакова</title>
+        <author>
+          <persName>?</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian">?</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="19-kislev-archive.podval.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="020.xml">020</ref>
+          <ref xml:id="self" target="021.xml">021</ref>
+          <ref xml:id="next" target="026.xml">026</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ru"/>
+      </langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="ru">
+    <body>
+      <pb xml:id="p021-1" n="021-1" facs="../facsimiles/021-1.jpg"/>
+      <p>Израиль Балшум, или Кабалиста, слишком десять лет тому назад, жил в местечке Мендзиборг в Подолии;</p>
+      <pb xml:id="p021-2" n="021-2" facs="../facsimiles/021-2.jpg"/>
+      <pb xml:id="p022-1" n="022-1" facs="../facsimiles/022-1.jpg"/>
+      <pb xml:id="p022-2" n="022-2" facs="../facsimiles/022-2.jpg"/>
+      <pb xml:id="p023-1" n="023-1" facs="../facsimiles/023-1.jpg"/>
+      <pb xml:id="p023-2" n="023-2" facs="../facsimiles/023-2.jpg"/>
+      <pb xml:id="p024-1" n="024-1" facs="../facsimiles/024-1.jpg"/>
+      <pb xml:id="p024-2" n="024-2" facs="../facsimiles/024-2.jpg"/>
+      <pb xml:id="p025-1" n="025-1" facs="../facsimiles/025-1.jpg"/>
+      <pb xml:id="p025-2" n="025-2" facs="../facsimiles/025-2.jpg"/>
+    </body>
+  </text>
+</TEI>
