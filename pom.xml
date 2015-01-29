@@ -28,9 +28,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/dubinsky/19-kislev-archive</url>
-        <connection>scm:git:git://github.com/dubinsky/19-kislev-archive.git</connection>
-        <developerConnection>scm:git:git@github.com:dubinsky/19-kislev-archive.git</developerConnection>
+        <url>https://github.com/alter-rebbe/collector</url>
+        <connection>scm:git:git://github.com/alter-rebbe/collector.git</connection>
+        <developerConnection>scm:git:git@github.com:alter-rebbe/collector.git</developerConnection>
     </scm>
 
     <organization>
