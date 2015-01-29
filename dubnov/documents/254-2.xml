@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">No 6. Ответъ Литовскаго прокурора, что въ Литовской губернии о сектѣ неизвѣстно</title>
+        <author>
+          <persName>?</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian" when="1800-06-21">1800-06-21</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="19-kislev-archive.podval.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="254-1.xml">254-1</ref>
+          <ref xml:id="self" target="254-2.xml">254-2</ref>
+          <ref xml:id="next" target="255-1.xml">255-1</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ru"/>
+      </langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="ru">
+    <body>
+      <pb xml:id="p254" n="254" facs="../facsimiles/254.jpg"/>
+      <salute>Его высокопревосходительству, господину гонералу отъ инфантерiи, генералу-прокурору,
+        генералъ-провiантмейстеру и разныхъ орденовъ кавалеру Петру Хрисанофовичу Обольянинову.</salute>
+      <p>Литовскаго губернскаго прокурора рапортъ.</p>
+      <p>На всепочтеннейшее предписание вашего высокопревосходительства отъ 7 числа сего июня подь последовавшее по
+        именному Е. И. В. высочайшему повелѣнію, касательно производимаго следствия о притѣсненіяхъ, чинимыхъ сектою
+        Шабзусь-Цвинкусь Шинскому оберть-раббину Хайму, имею честь донести вашему высокопревосходительству, что въ
+        здешней губернии подобнаго следствия не производится и не производилось, да и сведения о таковой сект до
+        правительства не доходили, а уш0ваю я, что сіе должно относитьси къ Минской губернiи, въ которой и Пинскъ
+        состоитъ уѣзднымъ городомъ,</p>
+      <closer>
+        <dateline> — Литовскiй губерн No 99.
+          <date calendar="#julian" when="1800-06-21">Iюня 21-го дня, 1800 года</date>.
+        </dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
