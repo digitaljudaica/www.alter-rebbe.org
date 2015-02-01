@@ -6,9 +6,8 @@
     <fileDesc>
       <titleStmt>
         <title type="main">No 1. Препроводительное письмо къ прошенiю раввина Авигдора Хаимовича</title>
-        <author>
-          <persName>Брискорнъ</persName>
-        </author>
+        <author><persName>Брискорнъ</persName></author>
+        <principal><persName>Леонид Дубинский</persName></principal>
       </titleStmt>
       <editionStmt>
         <edition>
@@ -65,12 +64,12 @@
 
       <closer>
         <signed>θедоръ Брискорнъ.</signed>
-        <dateline> В <placeName>С.-П-Бургѣ</placeName>, 
-          <date calendar="#julian" when="1800-04-23">апрѣля 23-го 1800-го</date>. </dateline>
+        <dateline> В <placeName>С.-П-Бургѣ</placeName>, <date calendar="#julian" when="1800-04-23">апрѣля 23-го
+            1800-го</date>. </dateline>
       </closer>
 
-      <note xml:id="p090n1"> 1) Документы отъ No 1 до No 13 включительно находятся въ Сенатскомъ Архивѣ, дѣло М-ва
-        Юстицiи 1800 гг. No 85.</note>
+      <note xml:id="p090n1"><hi rend="superscript">1</hi>) Документы отъ No 1 до No 13 включительно находятся въ
+        Сенатскомъ Архивѣ, дѣло М-ва Юстицiи 1800 гг. No 85.</note>
     </body>
   </text>
 </TEI>
