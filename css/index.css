@@ -69,24 +69,32 @@
 /* Documents index */
 
 #documents-table {
-  border: 1px solid #373737;
+  border: 1px solid black;
   margin-bottom: 20px;
   text-align: left;
 }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
-  background: #373737;
-  color: #fff;
+  background: #e6e4da;
+  color: black;
+
+  /* Keep header visible */
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
 }
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  border: 1px solid black;
 }
 
-a .missing-page {
+
+a.missing-page {
   color: red;
 }
 
