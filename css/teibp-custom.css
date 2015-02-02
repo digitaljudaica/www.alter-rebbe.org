@@ -1,6 +1,13 @@
 /* Place project-specific CSS here */
 html {
     width: 55em;
+    box-sizing: border-box;
+    color:black;
+    background: whitesmoke;
+    font-size: 18px;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 seriesStmt {
