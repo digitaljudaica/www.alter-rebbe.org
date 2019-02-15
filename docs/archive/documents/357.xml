@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Реестр книгам еврея Боруховича</title>
+        <author>
+          <persName>?</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian">?</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="www.alter-rebbe.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="356.xml">356</ref>
+          <ref xml:id="self" target="357.xml">357</ref>
+          <ref xml:id="next" target="362.xml">362</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage></langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb xml:id="p357-1" n="357-1" facs="../facsimiles/357-1.jpg"/>
+      <pb xml:id="p357-2" n="357-2" facs="../facsimiles/357-2.jpg"/>
+      <pb xml:id="p358-1" n="358-1" facs="../facsimiles/358-1.jpg"/>
+      <pb xml:id="p358-2" n="358-2" facs="../facsimiles/358-2.jpg"/>
+      <pb xml:id="p359-1" n="359-1" facs="../facsimiles/359-1.jpg"/>
+      <pb xml:id="p359-2" n="359-2" facs="../facsimiles/359-2.jpg"/>
+      <pb xml:id="p360-1" n="360-1" facs="../facsimiles/360-1.jpg"/>
+      <pb xml:id="p360-2" n="360-2" facs="../facsimiles/360-2.jpg"/>
+      <pb xml:id="p361-1" n="361-1" facs="../facsimiles/361-1.jpg"/>
+      <pb xml:id="p361-2" n="361-2" facs="../facsimiles/361-2.jpg"/>
+    </body>
+  </text>
+</TEI>
