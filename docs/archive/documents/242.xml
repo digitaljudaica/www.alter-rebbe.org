@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/teibp-custom.xsl"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">?</title>
+        <author>
+          <persName>?</persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date calendar="#julian">?</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ptr target="www.alter-rebbe.org"/>
+        </publisher>
+        <date>?</date>
+        <availability status="free">
+          <licence>
+            <ab>
+              <ref n="license" target="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+              </ref>
+            </ab>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <ab xml:id="navigation">
+          <ref xml:id="list" target="../index.html">list</ref>
+          <ref xml:id="prev" target="241.xml">241</ref>
+          <ref xml:id="self" target="242.xml">242</ref>
+          <ref xml:id="next" target="243.xml">243</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Facsimile</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="he"/>
+      </langUsage>
+      <calendarDesc>
+        <calendar xml:id="julian">
+          <p>Julian calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="he">
+    <body>
+      <pb xml:id="p242-1" n="242-1" facs="../facsimiles/242-1.jpg"/>
+      <pb xml:id="p242-2" n="242-2" facs="../facsimiles/242-2.jpg"/>
+    </body>
+  </text>
+</TEI>
