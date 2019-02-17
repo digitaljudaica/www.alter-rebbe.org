@@ -36,4 +36,19 @@ metadata and transcripts of the facsimiles. Those files are primary: index is ge
 Code used for the move and site generation is in Scala. 
 
 To display TEI documents in the browser, together with the original facsimiles,
-  use [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/). Its help was invaluable.
+I use [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/). Its help was invaluable.
+
+My site is rooted in the `docs` directory; TEI Boilerplate
+[repository](https://github.com/GrantLS/TEI-Boilerplate) has a `dist` directory.
+This is how I update my setup when new version of TEI Boilerplate gets released:
+- copy `teibp.xsl` and `xml-to-string.xsl` from their `content` directory to my `xslt` directory;
+- in the `xml-stylesheet` processing instruction, I associate my TEI documents with `teibp-custom.xsl`
+  and use that for XSLT customization, so their `custom.xsl` is not needed;
+- copy `teibp.css`, `sleepy.css` and `terminal.css` from their `css` directory to mine;
+- I set `customCSS` XSL parameter in my `teibp-custom.xsl` to `teibp-custom.css`
+  and use that for CSS customization, so their `custom.css` is not needed;
+- copy `teibp.js` from their `js` directory to mine;
+- in my layout, TEI documents are in the `documents` directory of a collection,
+  so the path from a document to `teibp-custom.xsl` is `"../../xslt/teibp-custom.xsl"`,
+  and I set `filePrefix` parameter in `teibp-custom.xsl` to `'../..'`.
+ 

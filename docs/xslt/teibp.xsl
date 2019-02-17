@@ -30,8 +30,6 @@
 	<xsl:param name="includeAnalytics" select="true()"/>
 	<xsl:param name="displayPageBreaks" select="true()"/>
 	
-	
-	
 	<!-- special characters -->
 	<xsl:param name="quot"><text>"</text></xsl:param>
 	<xsl:param name="apos"><text>'</text></xsl:param>
@@ -50,9 +48,8 @@
 	
 	<xsl:param name="teibpCSS" select="concat($filePrefix,'/css/teibp.css')"/>
 	<xsl:param name="customCSS" select="concat($filePrefix,'/css/custom.css')"/>
-	<xsl:param name="jqueryJS" select="concat($filePrefix,'/js/jquery/jquery.min.js')"/>
-	<xsl:param name="jqueryBlockUIJS" select="concat($filePrefix,'/js/jquery/plugins/jquery.blockUI.js')"/>
 	<xsl:param name="teibpJS" select="concat($filePrefix,'/js/teibp.js')"/>
+	<xsl:param name="lessJS" select="concat($filePrefix,'/js/build-support/less.min.js')"/>
 	<xsl:param name="theme.default" select="concat($filePrefix,'/css/teibp.css')"/>
 	<xsl:param name="theme.sleepytime" select="concat($filePrefix,'/css/sleepy.css')"/>
 	<xsl:param name="theme.terminal" select="concat($filePrefix,'/css/terminal.css')"/>
@@ -77,6 +74,7 @@
 					<xsl:apply-templates/>
 				</div>
 				<xsl:copy-of select="$htmlFooter"/>
+				<script type="text/javascript" src="{$teibpJS}"></script>
 			</body>
 		</html>
 	</xsl:template>
@@ -302,17 +300,10 @@
 		<head>
 			<meta charset="UTF-8"/>
 
+			<script src="{$lessJS}"></script>
 			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
 			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
-			<script type="text/javascript" src="{$jqueryJS}"></script>
-			<script type="text/javascript" src="{$jqueryBlockUIJS}"></script>
-			<script type="text/javascript" src="{$teibpJS}"></script>
-			<script type="text/javascript">
-				$(document).ready(function() {
-					$("html > head > title").text($("TEI > teiHeader > fileDesc > titleStmt > title:first").text());
-					$.unblockUI();	
-				});
-			</script>
+
 			<xsl:call-template name="tagUsage2style"/>
 			<xsl:call-template name="rendition2style"/>
 			<title><!-- don't leave empty. --></title>
@@ -434,6 +425,19 @@
 		<xsl:param name="n"/>
 		<xsl:param name="facs"/>
 		<xsl:param name="id"/>
+	    <!-- dealing with pointers instead of full URLs in @facs -->
+	    <xsl:variable name="vFacs">
+	        <xsl:choose>
+	            <xsl:when test="starts-with($facs,'#')">
+	                <xsl:variable name="vFacsID" select="substring-after($facs,'#')"/>
+	                <xsl:variable name="vMimeType" select="'image/jpeg'"/>
+	                <xsl:value-of select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id=$vFacsID]/tei:graphic[@mimeType=$vMimeType][1]/@url"/>
+	            </xsl:when>
+	            <xsl:otherwise>
+	                <xsl:value-of select="$facs"/>
+	            </xsl:otherwise>
+	        </xsl:choose>
+	    </xsl:variable>
 		
 		<span class="-teibp-pageNum">
 			<!-- <xsl:call-template name="atts"/> -->
@@ -444,11 +448,11 @@
 			<span class="-teibp-pbFacs">
 				<a class="gallery-facs" rel="prettyPhoto[gallery1]">
 					<xsl:attribute name="onclick">
-						<xsl:value-of select="concat('showFacs(',$apos,$n,$apos,',',$apos,$facs,$apos,',',$apos,$id,$apos,')')"/>
+						<xsl:value-of select="concat('showFacs(',$apos,$n,$apos,',',$apos,$vFacs,$apos,',',$apos,$id,$apos,')')"/>
 					</xsl:attribute>
 					<img  alt="{$altTextPbFacs}" class="-teibp-thumbnail">
 						<xsl:attribute name="src">
-							<xsl:value-of select="@facs"/>
+							<xsl:value-of select="$vFacs"/>
 						</xsl:attribute>
 					</img>
 				</a>
@@ -462,7 +466,8 @@
 		</xsl:param>
 		<xsl:choose>
 		<xsl:when test="$displayPageBreaks = true()">
-					<span class="-teibp-pb">
+		    <!-- add @lang="en" to ensure correct ltr rendering -->
+					<span class="-teibp-pb" lang="en">
 						<xsl:call-template name="addID"/>
 						<xsl:call-template name="pb-handler">
 							<xsl:with-param name="n" select="@n"/>
@@ -506,6 +511,34 @@
 	<xsl:template match="eg:egXML//comment()">
 		<xsl:comment><xsl:value-of select="."/></xsl:comment>
 	</xsl:template>
+    
+    <!-- support for rtl-languages such as Arabic -->
+    <!-- template to add the HTML @lang attribute based on the containing element -->
+    <xsl:template name="templHtmlAttrLang">
+        <xsl:param name="pInput"/>
+        <xsl:choose>
+            <xsl:when test="$pInput/@xml:lang">
+                <xsl:attribute name="lang">
+                    <xsl:value-of select="$pInput/@xml:lang"/>
+                </xsl:attribute>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:attribute name="lang">
+                    <xsl:value-of select="ancestor::node()[@xml:lang!=''][1]/@xml:lang"/>
+                </xsl:attribute>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <!-- add the @lang attribute to the <body> -->
+    <xsl:template match="tei:body">
+        <xsl:copy>
+            <xsl:call-template name="templHtmlAttrLang">
+                <xsl:with-param name="pInput" select="."/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
 
 	
 </xsl:stylesheet>

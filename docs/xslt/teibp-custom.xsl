@@ -16,7 +16,7 @@
          variables, and parameters from teibp.xsl 
          to be overridden here. -->
   <xsl:import href="teibp.xsl"/>
-  
+
 
   <!-- Disable toolbox -->
   <xsl:param name="includeToolbox" select="false()"/>

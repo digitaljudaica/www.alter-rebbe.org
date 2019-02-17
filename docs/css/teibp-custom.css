@@ -13,3 +13,9 @@ html {
 seriesStmt {
   display: block;
 }
+
+
+[lang="he"] {
+    direction: rtl;
+    text-align: right;
+}
