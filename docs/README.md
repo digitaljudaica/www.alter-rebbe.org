@@ -35,6 +35,8 @@ metadata and transcripts of the facsimiles. Those files are primary: index is ge
 
 Code used for the move and site generation is in Scala. 
 
+## TEI Boilerplate ##
+
 To display TEI documents in the browser, together with the original facsimiles,
 I use [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/). Its help was invaluable.
 
