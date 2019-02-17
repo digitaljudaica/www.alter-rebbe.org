@@ -1,4 +1,4 @@
-# 19-kislev-archive #
+# 19 Kislev Archive #
 
 Archive documents of the arrest of the Alter Rebbe and chassidim of
  Vilno in 1798 and the second arrest of 1800.
@@ -30,8 +30,8 @@ documents to GitHub Pages.
 
 During the move, the site was reworked again: first, the monolithic metadata document was split,
 and finally, removed entirely, with information moved into separate TEI files that now contain
-metadata and transcripts of the facsimiles. Those files are primary: index is generated from them
-- as it should have been from the beginning :)
+metadata and transcripts of the facsimiles. Those files are primary: index is generated from
+them - as it should have been from the beginning :)
 
 Code used for the move and site generation is in Scala. 
 
