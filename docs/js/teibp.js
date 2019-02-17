@@ -1,86 +1,62 @@
 function clearPageBreaks(){
-	$("pb").css("display","none");
-	$(".-teibp-pb").css("display","none");
+    for(var e=document.querySelectorAll("pb"),t=0;t<e.length;t++)e[t].style.display="none";
+    for(var e=document.querySelectorAll(".-teibp-pb"),t=0;t<e.length;t++)e[t].style.display="none"
 }
 
 function addPageBreaks(){
-	$("pb").css("display","block");	
-	$(".-teibp-pb").css("display","block");
-
+    for(var e=document.querySelectorAll("pb"),t=0;t<e.length;t++)e[t].style.display="block";
+    for(var e=document.querySelectorAll(".-teibp-pb"),t=0;t<e.length;t++)e[t].style.display="block"
 }
 
 function init(){
-	document.getElementById('pbToggle').onclick = function(){
-		if(document.getElementById('pbToggle').checked){
-			clearPageBreaks();
-		}else{
-			addPageBreaks();
-		}
-	};
-	addPageBreaks();
-	document.getElementById('pbToggle').checked = false;
+    var e=document.getElementById("pbToggle");
+    null!=e&&(e.onclick=function(){this.checked?clearPageBreaks():addPageBreaks()},addPageBreaks(),document.getElementById("pbToggle").checked=!1);
+    var t=document.querySelector("html > head > title"),n=document.querySelector("tei-title");
+    null!=t&&null!=n&&(t.textContent=n.textContent)
 }
 
-//If W3C event model used, prefer that. Window events are fallbacks
-if(document.addEventListener){
-	//W3C event model used
-	document.addEventListener("DOMContentLoaded", init, false);
-	window.addEventListener("load", init, false);
-} else if(document.attachEvent){
-	//IE event model used
-	document.attachEvent( "onreadystatechange", init);
-	window.attachEvent( "onload", init);
+function blockUI(){
+    var e=document.querySelector("body"),t=document.createElement("div");
+    t.setAttribute("class","blocker"),e.appendChild(t)
 }
 
-function switchThemes(theme) {
-	document.getElementById('maincss').href=theme.options[theme.selectedIndex].value;
+function unblockUI(){
+    var e=document.querySelector(".blocker");e&&e.parentNode.removeChild(e)
 }
 
-function showFacs(num, url, id) {
-// LMD: original:
-//	facsWindow = window.open ("about:blank")
-// LMD: to make facsimile viewer reuse the window/tab:
-	facsWindow = window.open ("about:blank", "teibp-facs")
-	facsWindow.document.write("<html>")
-	facsWindow.document.write("<head>")
-	facsWindow.document.write("<title>TEI Boilerplate Facsimile Viewer</title>")
-	facsWindow.document.write($('#maincss')[0].outerHTML)
-	facsWindow.document.write($('#customcss')[0].outerHTML)
-// LMD: I had to manually change 5 js hrefs when the documents moved one level deeper...
-	facsWindow.document.write("<link rel='stylesheet' href='../../js/jquery-ui/themes/base/jquery.ui.all.css'>")
-	if ($('#teibp-tagusage-css').length) {
-	  facsWindow.document.write($('#teibp-tagusage-css')[0].outerHTML)
-	}
-	if ($('#teibp-rendition-css').length) {
-	  facsWindow.document.write($('#teibp-rendition-css')[0].outerHTML)
-	}
-	facsWindow.document.write("<script type='text/javascript' src='../../js/jquery/jquery.min.js'></script>")
-	facsWindow.document.write("<script type='text/javascript' src='../../js/jquery-ui/ui/jquery-ui.js'></script>")
-	facsWindow.document.write("<script type='text/javascript' src='../../js/jquery/plugins/jquery.scrollTo-1.4.3.1-min.js'></script>")
-	facsWindow.document.write("<script type='text/javascript' src='../../js/teibp.js'></script>")
-	facsWindow.document.write("<script type='text/javascript'>")
-	facsWindow.document.write("$(document).ready(function() {")
-	facsWindow.document.write("$('.facsImage').scrollTo($('#" + id + "'))")
-	facsWindow.document.write("})")
-	facsWindow.document.write("</script>")
-	facsWindow.document.write("<script type='text/javascript'>	$(function() {$( '#resizable' ).resizable();});</script>")
-	facsWindow.document.write("</head>")
-	facsWindow.document.write("<body>")
-	facsWindow.document.write($("teiHeader")[0].outerHTML)
-	//facsWindow.document.write("<teiHeader>" + $("teiHeader")[0].html() + "</teiHeader>")
-	//facsWindow.document.write($('<teiHeader>').append($('teiHeader').clone()).html();)
-	
-	//facsWindow.document.write($("teiHeader")[0].outerHTML)
-	facsWindow.document.write("<div id='resizable'>")
-	facsWindow.document.write("<div class='facsImage'>")
-	$(".-teibp-thumbnail").each(function() {
-		facsWindow.document.write("<img id='" + $(this).parent().parent().parent().attr('id') + "' src='" + $(this).attr('src') + "' alt='facsimile page image'/>")
-	})
-	facsWindow.document.write("</div>")
-	facsWindow.document.write("</div>")
-	facsWindow.document.write($("footer")[0].outerHTML)
-	
-	facsWindow.document.write("</body>")
-	facsWindow.document.write("</html>")
-	facsWindow.document.close()
+function switchThemes(e){document.getElementById("maincss").href=e.options[e.selectedIndex].value}
+
+function showFacs(e,t,n){
+    for(var o="", c=document.querySelectorAll(".-teibp-thumbnail"), r=0; r<c.length; r++)
+        o+="<img id='" + c[r].parentNode.parentNode.parentNode.getAttribute("id") +
+            "' src='" + c[r].getAttribute("src") +
+            "' alt='facsimile page image'/>";
+    var l=[
+        "<html>",
+        "<head>",
+        "<title></title>",
+        document.querySelector("#maincss").outerHTML,
+        document.querySelector("#customcss").outerHTML,
+        null!=document.querySelector("#teibp-tagusage-css")?document.querySelector("#teibp-tagusage-css").outerHTML:"",
+        null!=document.querySelector("#teibp-rendition-css")?document.querySelector("#teibp-rendition-css").outerHTML:"",
+        "<script src='../js/teibp.js'></script>",
+        "</head>",
+        "<body>",
+        "<script>blockUI();</script>",
+        document.querySelector("teiHeader").outerHTML,
+        "<div id='resizable'>",
+        "<div class='facsImage'>",
+        o,
+        "</div>",
+        "</div>",
+        document.querySelector("footer").outerHTML,
+        "<script>",
+        "document.getElementById('" + n + "').scrollIntoView();",
+        "unblockUI();",
+        "</script>",
+        "</body>",
+        "</html>"
+    ].join("\n");facsWindow=window.open("about:blank"),facsWindow.document.write(l),facsWindow.document.close()
 }
+
+document.addEventListener?(document.addEventListener("DOMContentLoaded",init,!1),window.addEventListener("load",init,!1)):document.attachEvent&&(document.attachEvent("onreadystatechange",init),window.attachEvent("onload",init));

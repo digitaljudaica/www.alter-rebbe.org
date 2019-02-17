@@ -1,6 +1,6 @@
-@import url('http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Gentium+Book+Basic:400,400italic,700,700italic');
 /* imports */
 /* @import url("shell.css"); */
+@import url('http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Gentium+Book+Basic:400,400italic,700,700italic');
 /* namespaces */
 /* @namespace "http://www.tei-c.org/ns/1.0"; */
 /* @namespace with prefix, as below, throws and error in less. */
@@ -17,7 +17,6 @@
   border: 1px solid #444444;
   background: #252525;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -53,6 +52,36 @@
   margin: 2em 0 2em 0;
   font-size: 11pt;
 }
+.resizable {
+  resize: both;
+}
+@keyframes block-in {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+@-webkit-keyframes block-in {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+.blocker {
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: block-in 1s 1;
+  -webkit-animation: block-in 1s 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .box-shadow {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
@@ -70,8 +99,8 @@
   padding: 2.5em;
   font-family: Monaco, "Andale Mono", Courier, monospace;
   font-size: 14pt;
-  background-color: #000000;
-  color: #00fd00;
+  background-color: black;
+  color: #00FD00;
   width: 33em;
 }
 .table-border {
@@ -79,7 +108,6 @@
 border-left: 2px solid @border-color;
 border-top:2px solid @border-color;
 */
-
   border: 1px dotted #444444;
 }
 /* Choice elements */
@@ -380,7 +408,6 @@ cell {
 border-left: 2px solid @border-color;
 border-top:2px solid @border-color;
 */
-
   border: 1px dotted #444444;
   width: 100%;
 }
@@ -578,7 +605,6 @@ g {
 }
 gap {
   /* GLS: Depending upon how we handle gap and lacuna, we may want to enclose in [] */
-
 }
 gb {
   /* Empty Rule Set */
@@ -627,7 +653,6 @@ gramGrp {
 }
 graph {
   /* Empty for now */
-
 }
 graphic {
   display: none;
@@ -689,7 +714,6 @@ figure > head {
   border: 1px solid #444444;
   background: #252525;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -714,7 +738,6 @@ heraldry {
 }
 hi {
   /* GLS: do we want to bold this or change the background color? */
-
 }
 history {
   /* Empty Rule Set */
@@ -815,6 +838,14 @@ lacunaEnd {
 }
 lacunaStart {
   /* Empty Rule Set */
+}
+[lang="ar"] {
+  direction: rtl;
+  text-align: right;
+}
+[lang="en"] {
+  direction: ltr;
+  text-align: left;
 }
 lang {
   /* Empty Rule Set */
@@ -1038,7 +1069,6 @@ note {
   border: 1px solid #444444;
   background: #252525;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -1048,7 +1078,6 @@ note {
 }
 notesStmt {
   /* do we want to box each individual <note> if they're in a <notesStmt>? */
-
   display: none;
 }
 num {
@@ -1479,7 +1508,6 @@ signed {
   display: block;
   margin-top: 2em;
   /*should make name a block when contained within  */
-
 }
 soCalled {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
@@ -1519,9 +1547,7 @@ space:before {
 }
 TEI span {
   /* jawalsh: why were we hiding this? */
-
   /* .hide; */
-
 }
 TEI egXML span {
   display: inline;
@@ -1550,7 +1576,6 @@ sponsor {
   margin-top: 0;
   margin-bottom: 0;
   /* Block element, maybe labeled  */
-
 }
 sponsor:before {
   font-weight: bold;
@@ -1653,7 +1678,6 @@ border-radius: 15px;
 border: 1px solid black;
 background:white;
 */
-
   margin-top: 2em;
   margin-bottom: 2em;
   border-bottom: 1px solid #999;
@@ -1665,7 +1689,6 @@ border-radius: 15px;
 border: 1px solid black;
 background:white;
 */
-
   line-height: 1.5;
 }
 textClass {
@@ -1775,9 +1798,6 @@ w {
 watermark {
   /* Empty Rule Set */
 }
-when {
-  /* Empty Rule Set */
-}
 width {
   /* Empty Rule Set */
 }
@@ -1820,8 +1840,8 @@ html {
   padding: 2.5em;
   font-family: Monaco, "Andale Mono", Courier, monospace;
   font-size: 14pt;
-  background-color: #000000;
-  color: #00fd00;
+  background-color: black;
+  color: #00FD00;
   width: 33em;
 }
 img {
@@ -1829,18 +1849,18 @@ img {
 }
 footer {
   margin-top: 1em;
-  border-top: 1px solid #00fd00;
+  border-top: 1px solid #00FD00;
   padding-top: .5em;
   font-size: 12pt;
 }
 a:link,
 a:visited,
 a:active {
-  color: #1cc0fa;
+  color: #1CC0FA;
   text-decoration: none;
 }
 a:hover {
-  color: #1cc0fa;
+  color: #1CC0FA;
   text-decoration: underline;
 }
 #teibpToolbox {
@@ -1883,7 +1903,7 @@ a:hover {
   color: #993300;
 }
 .eg-text {
-  color: #00fd00;
+  color: #00FD00;
 }
 /* loading animation */
 #loading {
@@ -1897,11 +1917,12 @@ a:hover {
 }
 /* facsViewer */
 #resizable {
-  background-color: #000000;
+  background-color: black;
   width: 550px;
   height: 700px;
   overflow: hidden;
   padding: 0 1em .25em 0;
+  resize: both;
 }
 div.facsImage {
   width: 100%;
