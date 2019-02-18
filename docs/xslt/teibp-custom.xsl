@@ -31,7 +31,7 @@
 
 
   <!-- Suppress "target" attribute on the links so that they open in-place -->
-  <xsl:template match="@target"/>
+<!--  <xsl:template match="@target"/> -->
 
 
   <!-- Facsimile viewer prefix -->
