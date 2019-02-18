@@ -53,4 +53,12 @@ This is how I update my setup when new version of TEI Boilerplate gets released:
 - in my layout, TEI documents are in the `documents` directory of a collection,
   so the path from a document to `teibp-custom.xsl` is `"../../xslt/teibp-custom.xsl"`,
   and I set `filePrefix` parameter in `teibp-custom.xsl` to `'../..'`.
- 
+- in `js/teibp.js`, in function `showFacs`, in `<script src='../js/teibp.js'>`
+  the path needs to be changed for my nested setup to: `<script src='../../js/teibp.js'>`.
+- in `xslt/teibp.xsl`, line `<script src="{$lessJS}"></script>` in the `htmlHead` template
+  needs to be removed: the script mentioned there isn't shipped as a part of TEI Boilerplate :) 
+
+The site can be served locally by running the following command in `docs`:
+```groovy
+$ bundle exec jekyll serve
+```

@@ -300,7 +300,6 @@
 		<head>
 			<meta charset="UTF-8"/>
 
-			<script src="{$lessJS}"></script>
 			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
 			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
 

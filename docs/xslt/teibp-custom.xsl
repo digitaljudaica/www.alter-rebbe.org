@@ -18,9 +18,9 @@
   <xsl:import href="teibp.xsl"/>
 
 
-  <!-- Disable toolbox -->
+  <!-- Disable toolbox and Google analytics -->
   <xsl:param name="includeToolbox" select="false()"/>
-
+  <xsl:param name="includeAnalytics" select="false()"/>
 
   <!-- I use nested layout; common files are two levels up, not one :) -->
   <xsl:param name="filePrefix" select="'../..'"/>
