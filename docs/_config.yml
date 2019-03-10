@@ -28,6 +28,7 @@ github_username:  dubinsky
 # this and add the path to the pages in order as they should show up
 header_pages:
   - README.md
+  - people-and-places.md
 
 # Build settings
 markdown: kramdown
@@ -35,6 +36,7 @@ theme: minima
 
 include:
   - README.md
+  - people-and-places.md
 
 exclude:
   - CNAME
