@@ -38,6 +38,15 @@
   <xsl:param name="pbNote"><text>страница: </text></xsl:param>
   
 
+  <!-- turn TEI elements with 'ref' attributes (e.g., 'name') into links. -->
+  <xsl:template match="tei:*[@ref]" priority="99">
+    <a href="{@ref}">
+      <xsl:apply-templates select="@*"/>
+      <xsl:call-template name="rendition"/>
+      <xsl:apply-templates select="node()"/>
+    </a>
+  </xsl:template>
+
   <!-- Add archive license to the footer -->
   <xsl:variable name="htmlFooter">
     <footer>
