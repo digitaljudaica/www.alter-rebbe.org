@@ -1,5 +1,8 @@
 plugins {
-  id "com.github.maiflai.scalatest" version "0.23" apply false
+  id 'idea'
+  id 'com.github.ben-manes.versions' version '0.21.0'
+  id 'scala'
+  id "com.github.maiflai.scalatest" version '0.24'
 }
 
 repositories {
@@ -10,25 +13,20 @@ group = 'org.podval.19-kislev-archive'
 version = '0.3.0'
 description = '19 Kislev Archive'
 
-apply plugin: 'scala'
-
 dependencies {
   zinc    "com.typesafe.zinc:zinc:$zincVersion"
   compile "org.scala-lang:scala-library:$scalaVersion"
-  compile "org.scala-lang.modules:scala-xml_$scalaVersionMajor:1.1.0"
+  compile "org.scala-lang.modules:scala-xml_$scalaVersionMajor:1.1.1"
 
   testCompile "org.scalatest:scalatest_$scalaVersionMajor:3.0.5"
   testRuntime "org.pegdown:pegdown:1.6.0" // for scalatest reports
 }
 
-apply plugin: 'com.github.maiflai.scalatest'
-
 task publish(type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath
   main = 'org.podval.archive19kislev.collector.Main'
 }
-
-apply plugin: 'idea'
+build.dependsOn(publish)
 
 idea {
   project {
