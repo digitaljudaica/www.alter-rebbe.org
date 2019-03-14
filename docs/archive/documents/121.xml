@@ -5,10 +5,14 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Допрос жида Леизера Нотольевича</title>
+        <title type="main">Допрос жида Леизера Нотолевича</title>
         <author>
-          <persName>?</persName>
+          <persName>Лейзер Нотолевич</persName>
         </author>
+        <respStmt>
+          <resp>транскрибировал</resp>
+          <name>Ифрах Абрамов</name>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>
@@ -56,6 +60,13 @@
   <text xml:lang="ru">
     <body>
       <pb xml:id="p121-1" n="121-1" facs="../facsimiles/121-1.jpg"/>
+      <p>№15</p>
+      <p>перевод</p>
+      <p>Я Лейзер Нотолевич, от роду имею 40 лет, упражняюсь в портном мастерстве, родился в местечке Щучине, в Вильне
+        живу 18 лет, женат, имею детей, сыновей Нотку и Лейбу; два года тому как вступил в Каролинскую секту; сие учинил
+        здесь в Вильне; о прочем ничего не знаю.</p>
+
+      <p>Подписал Лейзер Нотолевич.</p>
     </body>
   </text>
 </TEI>
