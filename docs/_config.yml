@@ -37,6 +37,7 @@ theme: minima
 include:
   - README.md
   - people-and-places.md
+  - archive/index.html
 
 exclude:
   - CNAME
