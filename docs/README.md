@@ -1,5 +1,3 @@
-# README
-
 Archive documents of the arrest of the Alter Rebbe and chassidim of
  Vilno in 1798 and the second arrest of 1800.
 
