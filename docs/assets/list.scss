@@ -1,8 +1,8 @@
-@import "reset.css";
-@import "common.css";
+---
+---
+$content-width:    1800px;
 
-
-/* Documents index */
+@import "minima";
 
 #documents-table {
   border: 1px solid black;
@@ -29,24 +29,19 @@ td {
   border: 1px solid black;
 }
 
+th:nth-child(1) { width: 45%;   } // description
+th:nth-child(2) { width: 140px; } // date
+th:nth-child(3) { width: 160px; } // author
+th:nth-child(4) { width: 50px;  } // language
+th:nth-child(5) { width: 80px;  } // document
+th:nth-child(6) { width: 15%;   } // pages
+th:nth-child(7) { width: 30px;  } // isTranscribed
 
 a.missing-page {
   color: red;
 }
 
-#documents-table .description {
-  width: 40%;
-}
-
-#documents-table .date {
-  width: 140px;
-}
-
-#documents-table .pages {
-  width: 25%;
-}
-
-#documents-table .part-title {
+.part-title {
   font-weight: 700;
   font-size: 32px;
   color: #1614ff;
