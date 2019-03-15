@@ -1,4 +1,6 @@
-/* Place project-specific CSS here */
+@import "teibp";
+//@import "minima";
+
 html {
     width: 55em;
     box-sizing: border-box;
@@ -18,7 +20,7 @@ TEI text p a:link {
     color: #1614ff;
 }
 TEI text p a:visited {
-    color: red;
+    color: #1614ff;
 }
 
 [lang="he"] {
