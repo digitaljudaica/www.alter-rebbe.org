@@ -18,7 +18,7 @@ TEI text p a:link {
     color: #1614ff;
 }
 TEI text p a:visited {
-    color: #1614ff;
+    color: red;
 }
 
 [lang="he"] {
