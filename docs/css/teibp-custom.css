@@ -2,8 +2,8 @@
 html {
     width: 55em;
     box-sizing: border-box;
-    color:black;
-    background: whitesmoke;
+    color: black;
+    background: white;
     font-size: 18px;
     font-family: Calibri, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -14,6 +14,12 @@ seriesStmt {
   display: block;
 }
 
+TEI text p a:link {
+    color: blue;
+}
+TEI text p a:visited {
+    color: #1756a9;
+}
 
 [lang="he"] {
     direction: rtl;
