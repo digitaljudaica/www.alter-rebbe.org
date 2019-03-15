@@ -42,9 +42,9 @@ a.missing-page {
   width: 140px;
 }
 
-/*#documents-table .pages {*/
-  /*width: 25%;*/
-/*}*/
+#documents-table .pages {
+  width: 25%;
+}
 
 #documents-table .part-title {
   font-weight: 700;
