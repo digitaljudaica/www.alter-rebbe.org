@@ -24,9 +24,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  dubinsky
 
 header_pages:
-  - archive/list.md
+  - archive/index.md
   - people-and-places.md
-  - dubnov/list.md
+  - dubnov/index.md
   - README.md
 
 markdown: kramdown

@@ -15,10 +15,10 @@ seriesStmt {
 }
 
 TEI text p a:link {
-    color: blue;
+    color: #1614ff;
 }
 TEI text p a:visited {
-    color: #1756a9;
+    color: #1614ff;
 }
 
 [lang="he"] {
