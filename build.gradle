@@ -24,7 +24,7 @@ dependencies {
 
 task publish(type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath
-  main = 'org.podval.archive19kislev.collector.Main'
+  main = 'org.podval.archive19kislev.collector.Collection'
 }
 build.dependsOn(publish)
 
