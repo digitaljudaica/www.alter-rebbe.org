@@ -27,13 +27,7 @@
       </publicationStmt>
       <sourceDesc>
         <p>Facsimile</p>
-      </sourceDesc>
-      <creation>
-        <date when="1800-10-15">октября 15 дня 1800 года.</date>
-      </creation>
-      <abstract>
-        <p>Отчет</p>
-      </abstract>
+      </sourceDesc>      
     </fileDesc>
     <profileDesc>
       <langUsage>
@@ -44,6 +38,12 @@
           <p>Julian calendar</p>
         </calendar>
       </calendarDesc>
+      <creation>
+        <date when="1800-10-15">октября 15 дня 1800 года.</date>
+      </creation>
+      <abstract>
+        <p>Отчет</p>
+      </abstract>
     </profileDesc>
   </teiHeader>
   <text>
