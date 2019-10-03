@@ -257,6 +257,10 @@
             </l>
           </p>
         </person>
+        <person xml:id="Гершель_Колоднер">
+          <persName>Гершель Колоднер</persName>
+          <p rendition="mentions"></p>
+        </person>
         <person xml:id="Гирша_Јосіеліович">
           <persName>Гирша Јосіеліович</persName>
           <p rendition="mentions">
@@ -616,6 +620,10 @@
           <ref target="https://ru.wikipedia.org/wiki/Невахович,_Лев_Николаевич">[Википедия]</ref>
           <p rendition="mentions"></p>
         </person>
+        <person xml:id="Неплюев">
+          <persName>Неплюев</persName>
+          <p rendition="mentions"></p>
+        </person>
         <person xml:id="Нота_Ноткин">
           <persName>Ноткин, Нота Хаимович</persName>
           <ref target="https://ru.wikipedia.org/wiki/Ноткин,_Нота_Хаимович">[Википедия]</ref>
@@ -723,6 +731,10 @@
               <ref target="/collections/rgada/documents/097.html" role="documentViewer">097</ref>
             </l>
           </p>
+        </person>
+        <person xml:id="Тутолмин">
+          <persName>Тутолмин</persName>
+          <p rendition="mentions"></p>
         </person>
         <person xml:id="Хлїовна_Зорухович">
           <persName>Хлїовна Зорухович</persName>
