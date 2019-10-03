@@ -1223,28 +1223,6 @@
             </l>
           </p>
         </place>
-          <place>
-<place xml:id="Добрович">
-    <placeName>Добрович</placeName>
-<p rendition="mentions">
-<l>
-rgia2213:
-<ref target="/collections/ rgia2213/ documents/002.html" role="documentViewer">002</ref>
-  </l>
-</p>
-</place>
-
-         <place>
-<place xml:id="Злобин">
-    <placeName>Злобин</placeName>
-<p rendition="mentions">
-<l>
-rgia2213:
-<ref target="/collections/ rgia2213/ documents/002.html" role="documentViewer">002</ref>
-  </l>
-</p>
-</place>
-
         <place xml:id="Иерусалим">
           <placeName>Иерусалим</placeName>
           <p rendition="mentions">
@@ -1417,17 +1395,6 @@ rgia2213:
             </l>
           </p>
         </place>
-          <place>
-<place xml:id="Столин">
-    <placeName>Столин</placeName>
-<p rendition="mentions">
-<l>
-rgia2213:
-<ref target="/collections/ rgia2213/ documents/002.html" role="documentViewer">002</ref>
-  </l>
-</p>
-</place>
- 
         <place xml:id="Украйна">
           <placeName>Украйна</placeName>
           <p rendition="mentions">
