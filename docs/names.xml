@@ -1377,6 +1377,16 @@
           <ref target="https://ru.wikipedia.org/wiki/Петропавловская_крепость">[Википедия]</ref>
           <p rendition="mentions"></p>
         </place>
+         <place>
+<place xml:id="Пинск">
+    <placeName>Пинск</placeName>
+<p rendition="mentions">
+<l>
+rgia2213:
+<ref target="/collections/ rgia2213/ documents/002.html" role="documentViewer">002</ref>
+  </l>
+</p>
+</place>
         <place xml:id="Пруссия">
           <placeName>Пруссия</placeName>
           <p rendition="mentions">
