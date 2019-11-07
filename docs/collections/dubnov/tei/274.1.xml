@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <persName>Фризель Иван Григорьевич</persName>
+                <persName ref="Фризель">Фризель Иван Григорьевич</persName>
                 <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
             </titleStmt>
             <publicationStmt>
