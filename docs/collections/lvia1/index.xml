@@ -68,7 +68,11 @@
           </cell>
         </row>
         <row>
-          <cell rendition="description"></cell>
+          <cell rendition="description">
+            <p>
+              Рапорт литовскаго гражданского губернатора Булгакова генерал-губернатору Де-Ласси о запросе документов у виленского кагала
+            </p>
+          </cell>
           <cell rendition="date">1799-02-11</cell>
           <cell rendition="author"></cell>
           <cell rendition="addressee">
