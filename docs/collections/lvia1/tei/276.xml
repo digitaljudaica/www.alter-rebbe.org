@@ -32,6 +32,8 @@
           <persName ref="Де-Ласси" role="addressee">Де-Ласси</persName>
         </correspAction>
       </correspDesc>
+       <abstract><p>Рапорт литовскаго гражданского губернатора Булгакова генерал-губернатору Де-Ласси о запросе документов у виленского кагала</p>
+              </abstract>
     </profileDesc>
   </teiHeader>
   <text xml:lang="ru">
