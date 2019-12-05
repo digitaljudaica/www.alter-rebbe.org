@@ -476,6 +476,10 @@
             </l>
           </p>
         </person>
+        <person xml:id="Дов-Бер_из_Межерича">
+          <persName>Дов-Бер из Межерича</persName>
+          <p rendition="mentions"></p>
+        </person>
         <person xml:id="Зелман">
           <persName>Зелман</persName>
           <p rendition="mentions">
