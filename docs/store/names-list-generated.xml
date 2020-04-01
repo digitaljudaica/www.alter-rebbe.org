@@ -2,11 +2,8 @@
 <filesList>
   <file>ALD</file>
   <file>BG</file>
-  <file>CAHJP</file>
   <file>IA</file>
   <file>IL</file>
-  <file>LNA</file>
-  <file>LVIA</file>
   <file>MF</file>
   <file>MK</file>
   <file>SB</file>
@@ -109,7 +106,6 @@
   <file>Могилевская_губерния</file>
   <file>Мордух</file>
   <file>Моше</file>
-  <file>НИАБ</file>
   <file>Неверовский</file>
   <file>Неплюев</file>
   <file>Нескиза</file>
@@ -133,9 +129,6 @@
   <file>Полонное</file>
   <file>Польша</file>
   <file>Пруссия</file>
-  <file>РГАДА</file>
-  <file>РГИА</file>
-  <file>РНБ</file>
   <file>Рафаил_Шлиомович</file>
   <file>Рафал</file>
   <file>Рига</file>
