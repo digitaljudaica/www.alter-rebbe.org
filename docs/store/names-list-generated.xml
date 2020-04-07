@@ -30,7 +30,7 @@
   <file>Варшава</file>
   <file>Видзы</file>
   <file>Виленский_кагал</file>
-  <file>Вильно</file>
+  <file>Вильна</file>
   <file>Витебск</file>
   <file>Витебская_губерния</file>
   <file>Владимир</file>
@@ -46,9 +46,8 @@
   <file>Гирш_Давыдович_Magnus</file>
   <file>Гирш_Иоселиович</file>
   <file>Гирша_Давыдович</file>
-  <file>Гродзен</file>
+  <file>Гродзень</file>
   <file>Гродно</file>
-  <file>Де-Ласси</file>
   <file>Державин</file>
   <file>Дзиенциола</file>
   <file>Добрович</file>
@@ -70,29 +69,30 @@
   <file>Калич</file>
   <file>Каменец_Подольский</file>
   <file>Капцевич</file>
-  <file>Каролинский_кагал</file>
+  <file>Карлинский_кагал</file>
+  <file>Карнеев</file>
   <file>Каролины</file>
   <file>Козенице</file>
   <file>Козминский</file>
-  <file>Копыси</file>
-  <file>Корнеев</file>
+  <file>Копысь</file>
   <file>Кутузов</file>
+  <file>Лассий</file>
   <file>Леви_Ицхак_из_Бердичева</file>
-  <file>Левицкий_Михаил</file>
+  <file>Левицкий</file>
   <file>Лезер_Хаймович</file>
   <file>Леизер_Нотолевич</file>
   <file>Лейба_Беркович</file>
   <file>Лейба_Зеликович</file>
-  <file>Лейба_Меіерович</file>
+  <file>Лейба_Меиерович</file>
   <file>Лейба_Невахович</file>
   <file>Лейба_Юделевич</file>
+  <file>Лиозно</file>
   <file>Литва</file>
   <file>Литовское_губернское_правление</file>
-  <file>Лозна</file>
   <file>Лопухин</file>
   <file>Любавичи</file>
   <file>Ляды</file>
-  <file>Ляховицы</file>
+  <file>Ляховичи</file>
   <file>Меджибож</file>
   <file>Меер_Рафалович</file>
   <file>Мезеричи</file>
@@ -118,6 +118,7 @@
   <file>Орлик_Мовшович</file>
   <file>Островна</file>
   <file>Павел_I</file>
+  <file>Пален</file>
   <file>Палестина</file>
   <file>Перец_Хаймович</file>
   <file>Петербург</file>
@@ -142,11 +143,11 @@
   <file>Столин</file>
   <file>Сукин</file>
   <file>Тайная_экспедиция</file>
-  <file>Тарабеев</file>
+  <file>Тарбеев</file>
   <file>Тормасов</file>
   <file>Турция</file>
   <file>Тутолмин</file>
-  <file>Украйна</file>
+  <file>Украина</file>
   <file>Фризель</file>
   <file>Хаим</file>
   <file>Хасиды</file>
@@ -168,5 +169,4 @@
   <file>мителер_ребе</file>
   <file>рав_Яаков_Йосеф</file>
   <file>ребицен_Штерна</file>
-  <file>фонъ_Дер_Пален</file>
 </filesList>
