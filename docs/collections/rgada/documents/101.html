@@ -1,6 +1,5 @@
 ---
-layout: 'tei'
-tei: '/collections/rgada/tei/101.xml'
+layout: 'default'
 target: 'documentViewer'
 facs: '/collections/rgada/facs/101.html'
 documentCollection: 'РГАДА 3140'
@@ -8,3 +7,5 @@ prevDocument: '100'
 thisDocument: '101'
 nextDocument: '102'
 ---
+
+<script type='module'>import loadTei from '/js/tei.js'; loadTei('/collections/rgada/tei/101.xml');</script>

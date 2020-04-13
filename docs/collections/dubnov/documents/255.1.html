@@ -1,6 +1,5 @@
 ---
-layout: 'tei'
-tei: '/collections/dubnov/tei/255.1.xml'
+layout: 'default'
 target: 'documentViewer'
 facs: '/collections/dubnov/facs/255.1.html'
 documentCollection: 'Дубнов'
@@ -8,3 +7,5 @@ prevDocument: '254.2'
 thisDocument: '255.1'
 nextDocument: '255.2'
 ---
+
+<script type='module'>import loadTei from '/js/tei.js'; loadTei('/collections/dubnov/tei/255.1.xml');</script>
