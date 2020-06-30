@@ -202,13 +202,15 @@
       </row>
       <row>
         <cell rendition="description"><p>
-          Сообщение <persName role="namesViewer" target="/names/Кутузов.html">Кутузову</persName> о рассмотрении в
-          <orgName role="namesViewer" target="/names/Сенат.html">Сенате</orgName> дела отстраненных старшин <orgName
-          role="namesViewer" target="/names/Виленский_кагал.html">виленского кагала</orgName>, обвиненных в растрате
-          собранных в казну податей
+          Сообщение <persName role="namesViewer" target="/names/Обольянинов.html">Обольянинова</persName> <persName
+          role="namesViewer" target="/names/Кутузов.html">Кутузову</persName> орассмотрениив <orgName role="namesViewer"
+          target="/names/Сенат.html">Сенате</orgName>дела отстраненных старшин <orgName role="namesViewer"
+          target="/names/Виленский_кагал.html">виленского кагала</orgName>, обвиненных в растрате собранных в казну
+          податей
         </p></cell>
         <cell rendition="date">1800-09-29</cell>
-        <cell rendition="author">?</cell>
+        <cell rendition="author"><persName role="namesViewer" target="/names/Обольянинов.html"
+        >ПетрОбольянинов</persName></cell>
         <cell rendition="addressee"/>
         <cell rendition="language">ru</cell>
         <cell rendition="document"><ref role="documentViewer" target="/collections/lvia1800/documents/678.html"
@@ -218,8 +220,8 @@
           <ref role="documentViewer" target="/collections/lvia1800/documents/678.html#p678-2" rendition="missing-page"
           >678об</ref>
         </cell>
-        <cell rendition="transcriber"><persName role="namesViewer" target="/names/VK.html">Василий
-        Когаловский</persName></cell>
+        <cell rendition="transcriber"><persName role="namesViewer" target="/names/VK.html">ВасилийКогаловский</persName>
+        </cell>
       </row>
       <row>
         <cell rendition="description"><p>
