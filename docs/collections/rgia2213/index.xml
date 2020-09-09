@@ -386,7 +386,8 @@
         <cell rendition="date">1800-04-23</cell>
         <cell rendition="author">?</cell>
         <cell rendition="addressee"/>
-        <cell rendition="language">de</cell>
+        <cell rendition="language">de <ref role="documentViewer" target="/collections/rgia2213/documents/035-ru.html"
+        >ru</ref></cell>
         <cell rendition="document"><ref role="documentViewer" target="/collections/rgia2213/documents/035.html"
         >035</ref></cell>
         <cell rendition="pages">
