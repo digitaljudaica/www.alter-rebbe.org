@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc><titleStmt><author>?</author></titleStmt></fileDesc>
+    <profileDesc><creation><date when="1800-04-23">начало 1800, не позднее 23 апреля 1800</date></creation>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="de"><body>
+    <pb n="036-1"/>
+    <pb n="036-2"/>
+    <pb n="037-1"/>
+    <pb n="037-2"/>
+    <pb n="038-1"/>
+    <pb n="038-2"/>
+    <pb n="039-1"/>
+    <pb n="039-2"/>
+    <pb n="040-1"/>
+    <pb n="040-2"/>
+    <pb n="041-1"/>
+    <pb n="041-2"/>
+    <pb n="042-1"/>
+    <pb n="042-2"/>
+    <pb n="043-1"/>
+    <pb n="043-2"/>
+    <pb n="044-1"/>
+    <pb n="044-2"/>
+    <pb n="045-1"/>
+    <pb n="045-2"/>
+    <pb n="046-1"/>
+    <pb n="046-2"/>
+  </body></text>
+</TEI>
