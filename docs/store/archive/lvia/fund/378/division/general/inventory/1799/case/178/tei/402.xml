@@ -2,7 +2,9 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc><titleStmt><author/></titleStmt></fileDesc>
-    <profileDesc><abstract><p>Сообщение советника магистрата Вильно о виленских евреях в ответ на запрос Надворного суда</p></abstract></profileDesc>
+    <profileDesc><abstract><p>
+      Сообщение советника магистрата Вильно о виленских евреях в ответ на запрос Надворного суда
+    </p></abstract></profileDesc>
   </teiHeader>
   <text xml:lang="pl"><body>
     <pb n="402-1"/>
