@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<filesList/>
+<filesList>
+  <file>000</file>
+  <file>001</file>
+  <file>005</file>
+  <file>006</file>
+  <file>013</file>
+  <file>017</file>
+  <file>020</file>
+  <file>021</file>
+  <file>034</file>
+  <file>036</file>
+  <file>037</file>
+  <file>110</file>
+  <file>112</file>
+  <file>114</file>
+  <file>117</file>
+  <file>126</file>
+  <file>127</file>
+  <file>128</file>
+  <file>135</file>
+  <file>145</file>
+</filesList>
