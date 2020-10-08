@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="/assets/main.css"/>
+    <link rel="stylesheet" href="/assets/main-ng.css"/>
     <script>if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" ||
     navigator.msDoNotTrack === "1")) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,7 +34,65 @@
     </header>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <script type="module">import loadTei from '/js/tei.js'; loadTei('/collections/rgada/tei/088a.xml');</script>
+        <div xmlns="http://www.w3.org/1999/xhtml" class="html">
+          <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+              <fileDesc>
+                <titleStmt>
+                  <author><a xmlns="http://www.w3.org/1999/xhtml" class="persName" href="/names/Булгаков.html" target=
+                  "namesViewer" ref="Булгаков">Булгаков</a></author>
+                  <editor role="transcriber"><persName ref="IL">Илья Лурье</persName></editor>
+                  <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
+                </titleStmt>
+                <publicationStmt>
+                  <publisher><a xmlns="http://www.w3.org/1999/xhtml" class="ptr" href="www.alter-rebbe.org"
+                  >www.alter-rebbe.org</a></publisher>
+                  <availability status="free"><licence><ab><ref n="license" target=
+                  "http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International
+                  License</ref></ab></licence></availability>
+                </publicationStmt>
+                <sourceDesc><p>Facsimile</p></sourceDesc>
+              </fileDesc>
+              <profileDesc>
+                <abstract><p>
+                  Титульный лист следственного дела о хасидах, заведенного в <a xmlns="http://www.w3.org/1999/xhtml"
+                  class="placeName" href="/names/Вильна.html" target="namesViewer" ref="Вильна">Вильно</a>
+                </p></abstract>
+                <creation><date when="1798-10-25">25 октября 1798</date></creation>
+                <langUsage><language ident="ru"></language></langUsage>
+                <calendarDesc><calendar xml:id="julian"><p>Julian calendar</p></calendar></calendarDesc>
+              </profileDesc>
+            </teiHeader>
+            <text xml:lang="ru"><tei-body>
+              <ab rendition="document-header">
+                <l><p>
+                  Титульный лист следственного дела о хасидах, заведенного в <a xmlns="http://www.w3.org/1999/xhtml"
+                  class="placeName" href="/names/Вильна.html" target="namesViewer" ref="Вильна">Вильно</a>
+                </p></l>
+                <l>Дата: 1798-10-25</l>
+                <l>Кто: <a xmlns="http://www.w3.org/1999/xhtml" class="persName" href="/names/Булгаков.html" target=
+                "namesViewer" ref="Булгаков">Булгаков</a></l>
+                <l>Кому:</l>
+              </ab>
+              <a xmlns="http://www.w3.org/1999/xhtml" class="pb" xml:id="p088a-1" href=
+              "/collections/rgada/facs/088a.html#p088a-1" target="facsimileViewer" n="088a-1">⎙</a>
+              <fw type="pageNum">88а</fw>
+              <l>Слѣдствiе произведенное</l>
+              <l>въ <a xmlns="http://www.w3.org/1999/xhtml" class="placeName" href="/names/Вильна.html" target=
+              "namesViewer" ref="Вильна">Вильнѣ</a> по случаю</l>
+              <l>заведенія евреями <a xmlns="http://www.w3.org/1999/xhtml" class="orgName" href="/names/Хасиды.html"
+              target="namesViewer" ref="Хасиды">каро-<lb xmlns="http://www.tei-c.org/ns/1.0"></lb>
+               линской секты</a>. При</l>
+              <l>сланное при писмѣ губер-</l>
+              <l>натора <a xmlns="http://www.w3.org/1999/xhtml" class="persName" href="/names/Булгаков.html" target=
+              "namesViewer" ref="Булгаков">Булгакова</a> отъ</l>
+              <l><date when="1798-10-25">25 октября 1798<hi rend="superscript">го</hi></date></l>
+              <a xmlns="http://www.w3.org/1999/xhtml" class="pb" xml:id="p088a-2" href=
+              "/collections/rgada/facs/088a.html#p088a-2" target="facsimileViewer" n="088a-2">⎙</a>
+            </tei-body></text>
+          </TEI>
+          <ol class="endnotes"></ol>
+        </div>
       </div>
     </main>
     <footer class="site-footer h-card">
@@ -48,12 +106,12 @@
             </ul>
           </div>
           <div class="footer-col footer-col-2">
-            <ul class="social-media-list"/>
+            <ul class="social-media-list"></ul>
           </div>
           <div class="footer-col footer-col-3">
-            <p>documents related to early Chabad history<br/> 🄯 <a href="http://www.opentorah.org/" target=
+            <span>documents related to early Chabad history<br/> 🄯 <a href="http://www.opentorah.org/" target=
             "collectionViewer">the Open Torah Project</a> <a href="http://creativecommons.org/licenses/by/4.0/" target=
-            "collectionViewer">CC BY 4.0</a></p>
+            "collectionViewer">CC BY 4.0</a></span>
           </div>
         </div>
       </div>

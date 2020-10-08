@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="/assets/main.css"/>
+    <link rel="stylesheet" href="/assets/main-ng.css"/>
     <script>if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" ||
     navigator.msDoNotTrack === "1")) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,7 +34,88 @@
     </header>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <script type="module">import loadTei from '/js/tei.js'; loadTei('/collections/rgia413/tei/012.xml');</script>
+        <div xmlns="http://www.w3.org/1999/xhtml" class="html">
+          <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+              <fileDesc>
+                <titleStmt>
+                  <author><a xmlns="http://www.w3.org/1999/xhtml" class="persName" href="/names/alter-rebbe.html"
+                  target="namesViewer" ref="alter-rebbe">Алтер Ребе</a></author>
+                  <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
+                  <editor role="transcriber"><persName ref="MK">Михоэль Кориц</persName></editor>
+                </titleStmt>
+                <publicationStmt>
+                  <publisher><a xmlns="http://www.w3.org/1999/xhtml" class="ptr" href="www.alter-rebbe.org"
+                  >www.alter-rebbe.org</a></publisher>
+                  <availability status="free"><licence><ab><ref n="license" target=
+                  "http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International
+                  License</ref></ab></licence></availability>
+                </publicationStmt>
+                <sourceDesc><p>Facsimile</p></sourceDesc>
+              </fileDesc>
+              <profileDesc>
+                <abstract>
+                  <p>
+                    Молитва за императора <a xmlns="http://www.w3.org/1999/xhtml" class="persName" href=
+                    "/names/Павел_I.html" target="namesViewer" ref="Павел_I">Павла</a>
+                  </p>
+                  <p>
+                    Упомянута в документе <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href=
+                    "/collections/dubnov/documents/269.html" target="documentViewer">№ 19</a> у Дубнова
+                  </p>
+                </abstract>
+                <creation><date when="1800-12">декабрь 1800</date></creation>
+                <langUsage><language ident="he"></language></langUsage>
+                <calendarDesc><calendar xml:id="julian"><p>Julian calendar</p></calendar></calendarDesc>
+              </profileDesc>
+            </teiHeader>
+            <text xml:lang="he"><tei-body>
+              <ab rendition="document-header">
+                <l>
+                  <p>
+                    Молитва за императора <a xmlns="http://www.w3.org/1999/xhtml" class="persName" href=
+                    "/names/Павел_I.html" target="namesViewer" ref="Павел_I">Павла</a>
+                  </p>
+                  <p>
+                    Упомянута в документе <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href=
+                    "/collections/dubnov/documents/269.html" target="documentViewer">№ 19</a> у Дубнова
+                  </p>
+                </l>
+                <l>Дата: 1800-12</l>
+                <l>Кто: <a xmlns="http://www.w3.org/1999/xhtml" class="persName" href="/names/alter-rebbe.html" target=
+                "namesViewer" ref="alter-rebbe">Алтер Ребе</a></l>
+                <l>Кому:</l>
+              </ab>
+              <a xmlns="http://www.w3.org/1999/xhtml" class="pb" xml:id="p012-1" href=
+              "/collections/rgia413/facs/012.html#p012-1" target="facsimileViewer" n="012-1">⎙</a>
+              <fw type="pageNum" place="right"><del rend="overstrike">48</del></fw>
+              <fw type="pageNum" place="right">12</fw>
+              <p>
+                <l>הנותן תשועה לצלכים וממשלה לנסיכים מלכותו מלכות כל עולמים</l>
+                <l>הפוצה את דוד עבדו מחרב רעה. הנותן בים דרך ובמים</l>
+                <l>עבים נתיבה. הוא יברך וישמור וינצור ויעזור וירוים ויגדל</l>
+                <l>וינשא למעלה אדונינ הקיסר פאוויל פיטראוויץ</l>
+                <l>ובניו יר"ה. מלך מלכי המלכים ברחמיו יחייהו וישמרהו</l>
+                <l>ויצילהו מכל צרה ויגון ונזק וידבר עמים תחת רגליו</l>
+                <l>ויפיל שונאיו לפניו. ובכל אשר יפנה יצליח. מלך</l>
+                <l>מלכי המחכים ברחמיו יתן בלבו ובלב כל יועציו ושריו</l>
+                <l>רחמנות לעשות טובות עמנו ועם כל ישראל ובימיו</l>
+                <l>ובימינו תושיע יהודה וישראל ישכון לבטח ובא לציון</l>
+                <l>" גואל וכן יהי רצון אמן</l>
+              </p>
+              <a xmlns="http://www.w3.org/1999/xhtml" class="pb" xml:id="p012-2" href=
+              "/collections/rgia413/facs/012.html#p012-2" target="facsimileViewer" n="012-2">⎙</a>
+              <p xml:lang="ru">
+                <l>№=14 – Молитва по еврейски</l>
+                <l>сочиненная облагоденствіи все-</l>
+                <l>милостивѣйшаго Государя</l>
+                <l>Императора Павла петро=</l>
+                <l>вича съ фамилиею</l>
+              </p>
+            </tei-body></text>
+          </TEI>
+          <ol class="endnotes"></ol>
+        </div>
       </div>
     </main>
     <footer class="site-footer h-card">
@@ -48,12 +129,12 @@
             </ul>
           </div>
           <div class="footer-col footer-col-2">
-            <ul class="social-media-list"/>
+            <ul class="social-media-list"></ul>
           </div>
           <div class="footer-col footer-col-3">
-            <p>documents related to early Chabad history<br/> 🄯 <a href="http://www.opentorah.org/" target=
+            <span>documents related to early Chabad history<br/> 🄯 <a href="http://www.opentorah.org/" target=
             "collectionViewer">the Open Torah Project</a> <a href="http://creativecommons.org/licenses/by/4.0/" target=
-            "collectionViewer">CC BY 4.0</a></p>
+            "collectionViewer">CC BY 4.0</a></span>
           </div>
         </div>
       </div>
