@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="/assets/main.css"/>
-    <script>if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" ||
-    navigator.msDoNotTrack === "1")) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-154490117-1',
-    'auto'); ga('send', 'pageview'); }</script>
     <link rel="icon" type="image/jpeg" href="/alter-rebbe.jpeg"/>
   </head>
   <body>
@@ -29,7 +23,77 @@
     </header>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <script type="module">import loadTei from '/js/tei.js'; loadTei('/names/Каролины.xml');</script>
+        <div xmlns="http://www.w3.org/1999/xhtml" class="html">
+          <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader><fileDesc>
+              <titleStmt></titleStmt>
+              <publicationStmt>
+                <publisher><a xmlns="http://www.w3.org/1999/xhtml" class="ptr" href="www.alter-rebbe.org"
+                >www.alter-rebbe.org</a></publisher>
+                <availability status="free"><licence><ab><ref n="license" target=
+                "http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International
+                License</ref></ab></licence></availability>
+              </publicationStmt>
+              <sourceDesc><p>Facsimile</p></sourceDesc>
+            </fileDesc></teiHeader>
+            <text><tei-body><place xml:id="Каролины">
+              <placeName>Каролин</placeName>
+              <placeName>Каролины</placeName>
+              <p>
+                Карлин, Каролин (используются оба варианта) – в конце XVIII в. – предметье г. Пинска, ныне один из
+                районов этого города; один из центров раннего хасидского движения, по имени которого митнагеды и вслед
+                за ними представители официальной власти именовали всех хасидов Белоруссии, Литвы и Украины
+              </p>
+              <p>
+                Немного о <ref target="https://www.jewishgen.org/yizkor/Pinsk1/pinsk1.html#TOC2a">собственно</ref> <ref
+                target="https://www.jewishgen.org/yizkor/Pinsk1/pine12_018.html">карлинском</ref> <ref target=
+                "https://www.jewishgen.org/yizkor/Pinsk1/pine12_033.html">хасидизме</ref>.
+              </p>
+              <p rendition="mentions">
+                <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/names.html#Каролины" target="namesViewer">
+                [...]</a>
+                <l>
+                  <emph>Имена:</emph>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/names/Арон.html" target="namesViewer">Арон
+                  </a>
+                </l>
+                <l>
+                  <emph>архив LVIA, фонд 378, отдел общий, опись 1800, дело 2-4:</emph>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href=
+                  "/collections/lvia1800-2-4/documents/043.html" target="documentViewer">043</a>
+                </l>
+                <l>
+                  <emph>архив книги, книга Дубнов:</emph>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/dubnov/documents/257.html"
+                  target="documentViewer">257</a>
+                </l>
+                <l>
+                  <emph>архив РГАДА, разряд VII, опись 2, дело 3140:</emph>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/021.html"
+                  target="documentViewer">021</a>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/030.html"
+                  target="documentViewer">030</a>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/032.html"
+                  target="documentViewer">032</a>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/090.html"
+                  target="documentViewer">090</a>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/093.html"
+                  target="documentViewer">093</a>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/095.html"
+                  target="documentViewer">095</a>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgada/documents/283.html"
+                  target="documentViewer">283</a>
+                </l>
+                <l>
+                  <emph>архив РГИА, фонд 1374, опись 3, дело 2213:</emph>
+                  <a xmlns="http://www.w3.org/1999/xhtml" class="ref" href="/collections/rgia2213/documents/031.html"
+                  target="documentViewer">031</a>
+                </l>
+              </p>
+            </place></tei-body></text>
+          </TEI>
+          <ol class="endnotes"></ol>
+        </div>
       </div>
     </main>
     <footer class="site-footer h-card">
@@ -54,5 +118,5 @@
       </div>
     </footer>
   </body>
-  <script type="module">window.name = "namesViewer"</script>
+  <script type="module">import loadWindow from '/js/window.js'; loadWindow('namesViewer', 'UA-154490117-1');</script>
 </html>
