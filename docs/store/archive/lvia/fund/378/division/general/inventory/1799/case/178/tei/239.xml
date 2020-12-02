@@ -2,13 +2,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc><titleStmt>
-      <author/>
+      <author><persName>Палкин</persName></author>
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
       <abstract>Сопроводительное письмо плац-майора <persName>Палкина</persName>, исполнявшего обязанности <placeName
       ref="Вильна">виленского</placeName> коменданта, при передаче показаний в <orgName ref="Литовский_надворный_суд"
-      >Литовский надворный суд</orgName> письменных показаний квартального надзирателя <persName>Гестки</persName>
+      >Литовский надворный суд</orgName> письменных показаний квартального надзирателя <persName>Гески</persName>
       </abstract>
       <creation><date when="1799-08-13">Августа 13 дня 1799 года</date></creation>
     </profileDesc>
