@@ -8,8 +8,8 @@
     <profileDesc>
       <abstract><p>
         Объяснение губернского казначея <persName>Сербиновича</persName> для <orgName ref="Литовский_надворный_суд"
-        >Литовского надворного суда</orgName> о событиях, связанных с отстранением действовавшего состава старшин <orgName ref="Виленский_кагал">виленского кагала</orgName> и
-        изъятии приходно-расходных книг
+        >Литовского надворного суда</orgName> о событиях, связанных с отстранением действовавшего состава старшин
+        <orgName ref="Виленский_кагал">виленского кагала</orgName> и изъятии приходно-расходных книг
       </p></abstract>
       <creation><date when="1799-04-29">Апреля 29 дня 1799 года</date></creation>
     </profileDesc>
@@ -127,8 +127,7 @@
        судъ</orgName> въ сходствіе его требованія. Губернскій казначей</l>
       <l><signed><persName>Степан Сербиновичъ</persName></signed></l>
     </p>
-    <closer place="left">
-    <l><date when="1799-04-29">Апреля 29<hi rend="superscript">го</hi> дня<lb/>
+    <closer place="left"><l><date when="1799-04-29">Апреля 29<hi rend="superscript">го</hi> дня<lb/>
      1799 года</date>.</l></closer>
     <pb n="114-2" missing="true" empty="true"/>
   </body></text>
