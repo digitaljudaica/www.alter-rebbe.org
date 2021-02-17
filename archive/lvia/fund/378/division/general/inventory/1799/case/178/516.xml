@@ -1174,8 +1174,9 @@
       "Литовский_надворный_суд">Надвор-<lb/>
        ный судъ</orgName> прїостановиться разсужденїемъ надъ</l>
       <l><del rend="overstrike">таковыми</del> <hi rend="superscript">сими</hi> выраженїями, можно ли отобравъ</l>
-      <l><del rend="overstrike">преждѣ</del> отъ <orgName ref="Виленский_кагал">кагала</orgName> книги, <del rend="overstrike">слушать</del> <hi rend=
-      "superscript">требовать</hi> потомъ <del rend="overstrike">его</del> <hi rend="superscript">у него</hi></l>
+      <l><del rend="overstrike">преждѣ</del> отъ <orgName ref="Виленский_кагал">кагала</orgName> книги, <del rend=
+      "overstrike">слушать</del> <hi rend="superscript">требовать</hi> потомъ <del rend="overstrike">его</del> <hi rend=
+      "superscript">у него</hi></l>
       <l><del rend="overstrike">безъ техъ щетовъ</del> <hi rend="superscript">отчета</hi>, и могъ ли <orgName ref=
       "Виленский_кагал">кагалъ</orgName> потомъ</l>
       <l>безъ тѣхъ книгъ давать отчетъ? <del rend="overstrike">Наконецъ</del> <hi rend="superscript">А по</hi></l>
@@ -1184,15 +1185,18 @@
       <l>имѣли ль господа <persName ref="Капцевич">комендантъ</persName> и совѣтникъ <persName ref="Елиашевич"
       >Елїяше-<lb/>
        вичъ</persName> <del rend="overstrike">о поступленїи въ отобранїи</del> <hi rend="superscript">о отобранїи такимъ
-      образомъ <del rend="overstrike">отъ него книгъ</del> отъ кагала</hi> книгъ, <del rend="overstrike">такожъ</del></l>
-      <fw type="note" place="left margin">какъ то учинено<note place="end">вставка в текст, вынесенная на левое поле</note></fw>
+      образомъ <del rend="overstrike">отъ него книгъ</del> отъ кагала</hi> книгъ, <del rend="overstrike">такожъ</del>
+      </l>
+      <fw type="note" place="left margin">какъ то учинено<note place="end">вставка в текст, вынесенная на левое
+      поле</note></fw>
       <l>предписанїе послѣднимъ изъ нихъ выше</l>
       <l>сего <del rend="overstrike">прописалъ</del> <hi rend="superscript">прописанное</hi>; ибо въ семъ <hi rend=
       "superscript">поступанїи</hi> не довлѣетъ</l>
       <l>защищаться ордеромъ его высокопревосходительства</l>
       <l>г<hi rend="superscript">на</hi> <persName ref="Лассий">генерала губернатора</persName>, не предъявляя оного
       на</l>
-      <l>письмѣ. <del rend="overstrike">Дальше же онъ</del> <hi rend="superscript">За симъ</hi> господинъ совѣтникъ <persName ref="Елиашевич">Елїя-<lb/>
+      <l>письмѣ. <del rend="overstrike">Дальше же онъ</del> <hi rend="superscript">За симъ</hi> господинъ совѣтникъ
+      <persName ref="Елиашевич">Елїя-<lb/>
        шевичъ</persName> пишетъ: „Для чего и собралъ уже нѣкото-</l>
       <l>рыхъ кагальныхъ старшихъ, школьниковъ и вѣр-</l>
       <l>никовъ: то бы и находились мы при <del rend="overstrike">отобранїи</del> <hi rend="superscript">отбиранїи</hi>
@@ -1222,8 +1226,8 @@
       <l>зомъ, предписавъ <orgName ref="Виленский_кагал">кагалу</orgName> о безмедлѣннѣйшемъ</l>
       <l>представленїи оныхъ приходныхъ и расходныхъ</l>
       <l>книгъ въ комендантскую канцелярїю, а</l>
-      <l><orgName ref="Виленский_кагал">кагалъ</orgName> <del rend="overstrike">не былъ бы противнымъ</del> <hi rend="superscript">въ томъ не сопротивлялся
-      бы</hi> и <del rend="overstrike">не</del> былъ бы</l>
+      <l><orgName ref="Виленский_кагал">кагалъ</orgName> <del rend="overstrike">не былъ бы противнымъ</del> <hi rend=
+      "superscript">въ томъ не сопротивлялся бы</hi> и <del rend="overstrike">не</del> былъ бы</l>
       <l>принужденъ выполнить <del rend="overstrike">звѣрхничья</del> повелѣнїя <hi rend="superscript"
       >начальства</hi>.</l>
       <l>Но тутъ поступлено иначе; ибо <del rend="overstrike">въ самомъ началѣ</del> <hi rend="superscript"
@@ -1234,7 +1238,8 @@
       rend="superscript">нъ</hi> <persName ref="Елиашевич">совѣт-<lb/>
        никъ</persName> равномѣрно участвовалъ, какъ самъ <hi rend="superscript">онъ</hi> въ объ-</l>
       <l>ясненїи <hi rend="superscript">своемъ</hi> прописываетъ: „что Его Превосходитель-</l>
-      <l>ство г<hi rend="superscript">нъ</hi> <persName ref="Капцевич">комендантъ</persName> по россїйску, а я по польску</l>
+      <l>ство г<hi rend="superscript">нъ</hi> <persName ref="Капцевич">комендантъ</persName> по россїйску, а я по
+      польску</l>
       <l>о книгахъ спрашивано.<note place="end">конец цитаты</note></l>
     </p>
     <p>
@@ -1243,7 +1248,8 @@
       <l>призванные кагальные не хотѣли объявить</l>
       <l>мѣста, гдѣ схоронены были книги въ слѣду-</l>
       <l>ющихъ словахъ: „Но они долго одинъ на другаго</l>
-      <l><note place="end">в начале строки - вымаранное место длиной около 14-15 букв с пробелами</note> и сказывали, что тѣ книги у того,</l>
+      <l><note place="end">в начале строки - вымаранное место длиной около 14-15 букв с пробелами</note> и сказывали,
+      что тѣ книги у того,</l>
       <l>а не у него имѣются и не преждѣ порядочно объя-</l>
       <l>снились о книгахъ, какъ по продолжительномъ</l>
       <l><choice><sic>иже</sic><corr>уже</corr></choice> времени и по увѣщеванїи о показанїи <hi rend="superscript"
@@ -1415,7 +1421,8 @@
       <l>совѣтникъ <persName ref="Елиашевич">Елїяшевичъ</persName> покровительствуетъ,</l>
       <l>брали и берутъ надъ <del rend="overstrike">кагальными</del> <hi rend="superscript">ними</hi> верхъ</l>
       <l>и для приведенїя къ концу собственныхъ</l>
-      <l>своихъ предпрїятїй ходилъ <hi rend="superscript">онъ</hi> г<hi rend="superscript">нъ</hi> <del rend="overstrike">совѣт-</del></l>
+      <l>своихъ предпрїятїй ходилъ <hi rend="superscript">онъ</hi> г<hi rend="superscript">нъ</hi> <del rend=
+      "overstrike">совѣт-</del></l>
       <l><del rend="overstrike">никъ <persName ref="Елиашевич">Елїяшевичъ</persName></del> въ школу, приводя съ со-</l>
       <l>бою туда жъ и <orgName ref="Хасиды">каролиновъ</orgName>. Что жъ <del rend="overstrike">онъ</del></l>
       <l>господинъ совѣтникъ <persName ref="Елиашевич">Елїяшевичъ</persName> въ школѣ</l>
@@ -1447,8 +1454,8 @@
       <l><del rend="overstrike">дачѣ сихъ книгъ</del> сопротивляться, такъ и</l>
       <l>не сопротивлялся въ отдачѣ книгъ, коихъ</l>
       <l>не имѣлъ въ своемъ вѣдомствѣ. Самъ</l>
-      <l>г<hi rend="superscript">нъ</hi> совѣтникъ <persName ref="Елиашевич">Елїяшевичъ</persName> <del rend="overstrike">ссылается</del> въ
-      сво-</l>
+      <l>г<hi rend="superscript">нъ</hi> совѣтникъ <persName ref="Елиашевич">Елїяшевичъ</persName> <del rend=
+      "overstrike">ссылается</del> въ сво-</l>
       <l>емъ объясненїи ссылается <del rend="overstrike">во свидѣтельство</del></l>
       <l>на показанїя взятые имъ самимъ <hi rend="superscript">отъ</hi> <del rend="overstrike">изъ</del></l>
       <l>четырехъ кагальныхъ и вѣрника <persName ref="Зыскинд">Зыскина</persName>;</l>
@@ -1460,9 +1467,10 @@
       <l>а темъ паче показаль, что книги находятся</l>
       <l>въ кагальной избѣ въ шкафѣ, отъ которой</l>
       <l>имѣется ключъ при немъ. <hi rend="superscript">Итакъ</hi> почему остава-</l>
-      <l>лось <hi rend="superscript">чинить</hi> <orgName ref="Виленский_кагал">кагалу</orgName> <hi rend="superscript">объ книгахъ</hi> <del rend="overstrike"
-      >чинить въ нихъ</del> запиратель-</l>
-      <l>ство, и слѣдовало ль <del rend="overstrike">имѣть</del> съ <orgName ref="Виленский_кагал">кагаломъ</orgName> о</l>
+      <l>лось <hi rend="superscript">чинить</hi> <orgName ref="Виленский_кагал">кагалу</orgName> <hi rend="superscript"
+      >объ книгахъ</hi> <del rend="overstrike">чинить въ нихъ</del> запиратель-</l>
+      <l>ство, и слѣдовало ль <del rend="overstrike">имѣть</del> съ <orgName ref="Виленский_кагал">кагаломъ</orgName>
+      о</l>
       <l><del rend="overstrike">неспорныхъ книгахъ</del> <hi rend="superscript">имѣть объ оныхъ</hi> дѣло, а прямо
       надобно</l>
       <l>было взявъ у <persName ref="Зыскинд">Зыскина</persName> ключъ, выбирать изъ</l>
@@ -1473,13 +1481,13 @@
       "overstrike">трудился</del> <hi rend="superscript">старался</hi> только</l>
       <l>поклепать и безвиннно и несправедливо обнесть</l>
       <l>кагальныхъ членовъ. Къ тому жъ <hi rend="superscript">хотя и</hi> говоритъ <del rend="overstrike">онъ</del></l>
-      <l>г<hi rend="superscript">нъ</hi> <del rend="overstrike">совѣтникъ</del> <hi rend="superscript"><persName ref="Елиашевич"
-      >Елїяшевичъ</persName></hi> въ своемъ объясненїи, что якобы</l>
+      <l>г<hi rend="superscript">нъ</hi> <del rend="overstrike">совѣтникъ</del> <hi rend="superscript"><persName ref=
+      "Елиашевич">Елїяшевичъ</persName></hi> въ своемъ объясненїи, что якобы</l>
       <l><persName>Аронъ Јонасовичъ</persName> наибольше чинилъ отпира-</l>
       <l>тельства въ отдачѣ книгъ и регистровъ,</l>
-      <l>и ни одному человѣку <del rend="overstrike">самъ</del> <hi rend="superscript">не причинлъ онъ</hi> г<hi rend="superscript">нъ</hi> <del rend=
-      "overstrike">совѣтникъ</del> <hi rend="superscript"><del rend="overstrike"><persName ref="Елиашевич"
-      >Елїяшевичъ</persName></del></hi></l>
+      <l>и ни одному человѣку <del rend="overstrike">самъ</del> <hi rend="superscript">не причинлъ онъ</hi> г<hi rend=
+      "superscript">нъ</hi> <del rend="overstrike">совѣтникъ</del> <hi rend="superscript"><del rend="overstrike">
+      <persName ref="Елиашевич">Елїяшевичъ</persName></del></hi></l>
       <l>въ кагальномъ домѣ <del rend="overstrike">не чинилъ</del> обиды; <del rend="overstrike">Одна</del> <hi rend=
       "superscript">но во первыхъ</hi></l>
       <l><unclear>здесь</unclear> <hi rend="superscript">написалъ тутъ</hi> неправильно <del rend="overstrike"
@@ -1491,11 +1499,11 @@
       <l><persName ref="Шимель_Вульфович">Шимеля Вульфовича</persName>;<note place="end">конец цитаты</note> и другїя
       огорчитель-</l>
       <l>ныя слова, которыя тотъ же <persName>Аронъ Јо-<lb/>
-      насовичъ</persName> лично предъ судомъ скажетъ;</l>
+       насовичъ</persName> лично предъ судомъ скажетъ;</l>
       <l>А во вторыхъ <persName>Аронъ Јоносовичъ</persName> былъ <del rend="overstrike">назначенъ</del> <hi rend=
       "superscript">опредѣленъ</hi></l>
-      <l><del rend="overstrike"><unclear>???</unclear></del> <orgName ref="Виленский_кагал">кагаломъ</orgName> купно съ <persName ref="Шимель_Абелевич">Шимелемъ
-      Абелевичемъ</persName></l>
+      <l><del rend="overstrike"><unclear>???</unclear></del> <orgName ref="Виленский_кагал">кагаломъ</orgName> купно съ
+      <persName ref="Шимель_Абелевич">Шимелемъ Абелевичемъ</persName></l>
       <l>для сбора изъ обывателей складки <del rend="overstrike">поло</del></l>
       <l><del rend="overstrike">ложенной</del> <hi rend="superscript">назначенной</hi> народомъ добровольно <del rend=
       "overstrike">для</del> <hi rend="superscript">на</hi> за-</l>
@@ -1530,7 +1538,8 @@
       <l>прося онаго приготовить копїю къ вос-</l>
       <l>кресенью на рано, т.е. къ <date when="1799-02-06">6<hi rend="superscript">му</hi> числу мѣсяца<lb/>
        февраля</date>; списанную жъ самымъ имъ <del rend="overstrike"><persName>Јонасовичемъ</persName></del></l>
-      <l>копїю оставилъ <del rend="overstrike">онъ</del> <del rend="overstrike"><persName>Јонасовичъ</persName></del> въ кагальномъ</l>
+      <l>копїю оставилъ <del rend="overstrike">онъ</del> <del rend="overstrike"><persName>Јонасовичъ</persName></del> въ
+      кагальномъ</l>
       <pb n="530-1"/>
       <fw type="pageNum" place="right">530</fw>
       <l>домѣ; <hi rend="superscript">а</hi> <del rend="overstrike">а тѣмъ временемъ</del> <date when="1799-02-04">4<hi
@@ -1541,10 +1550,11 @@
       <l>куда пришедши <hi rend="superscript">когда</hi> тотчасъ спрошенъ былъ</l>
       <l>г<hi rend="superscript">м</hi> совѣтникомъ <persName ref="Елиашевич">Елїяшевичемъ</persName> о реестрѣ</l>
       <l>вышеписанной собиранной имъ складки, то <del rend="overstrike">на сїе</del></l>
-      <l><del rend="overstrike">онъ <persName>Аронъ</persName></del> отвѣчалъ, что оный <hi rend="superscript">находится</hi> <del rend=
-      "overstrike">находятся</del></l>
+      <l><del rend="overstrike">онъ <persName>Аронъ</persName></del> отвѣчалъ, что оный <hi rend="superscript"
+      >находится</hi> <del rend="overstrike">находятся</del></l>
       <l>въ кагальномъ домѣ. Послѣ таковаго <del rend="overstrike">озна-</del></l>
-      <l><del rend="overstrike">ченнаго <persName>Арона</persName></del> <hi rend="superscript"><persName>Јонасовичева</persName></hi> отвѣта г<hi rend="superscript">нъ</hi> совѣтникъ</l>
+      <l><del rend="overstrike">ченнаго <persName>Арона</persName></del> <hi rend="superscript"><persName
+      >Јонасовичева</persName></hi> отвѣта г<hi rend="superscript">нъ</hi> совѣтникъ</l>
       <l><hi rend="superscript"><persName ref="Елиашевич">Елїяшевичъ</persName></hi> сказалъ г<hi rend="superscript"
       >ну</hi> <persName ref="Капцевич">коменданту</persName>, что нужно послать</l>
       <l>квартальнаго надзирателя <persName>Естку</persName> съ нимъ</l>
@@ -1563,8 +1573,8 @@
       на-</l>
       <l>ходились. По <del rend="overstrike">входѣ</del> <hi rend="superscript">отходѣ</hi> <persName>Естки</persName>
       въ школу <del rend="overstrike">онъ</del></l>
-      <l>оставилъ онъ <hi rend="superscript"><persName>Естка</persName></hi> <persName>Арона</persName> <hi rend="superscript"><persName>
-      Јонасовича</persName></hi> въ кагальномъ домѣ</l>
+      <l>оставилъ онъ <hi rend="superscript"><persName>Естка</persName></hi> <persName>Арона</persName> <hi rend=
+      "superscript"><persName>Јонасовича</persName></hi> въ кагальномъ домѣ</l>
       <l>подъ стражею. Потомъ г<hi rend="superscript">нъ</hi> <persName ref="Елиашевич">Елїяшевичъ</persName></l>
       <l>возвращаясь съ прочими изъ школы, зашелъ</l>
       <l>въ кагальный домъ, гдѣ нашедши подъ стра-</l>
@@ -1692,8 +1702,8 @@
       <l>и даже гоненіяхъ; необинуясь показалъ</l>
       <l>по крайнему моему разумѣнію въ</l>
       <l><orgName ref="Литовское_губернское_правление">Губернскомъ правленіи</orgName> праведное мое</l>
-      <l>мнѣніе„<note place="end">конец цитаты</note> каковымъ <persName ref="Мовша_Ошерович">Ошеровичъ</persName> и проч:
-      дол-</l>
+      <l>мнѣніе„<note place="end">конец цитаты</note> каковымъ <persName ref="Мовша_Ошерович">Ошеровичъ</persName> и
+      проч: дол-</l>
       <l>жно быть не доволенъ и имѣетъ ко мнѣ злобу и проч.</l>
       <l>Изъ сихъ объясненїй г<hi rend="superscript">на</hi> совѣтника <persName ref="Елиашевич">Елїяшевича</persName>
       <del rend="overstrike">словъ</del></l>
@@ -1701,7 +1711,8 @@
       </l>
       <l><del rend="overstrike">нїе</del> и удостовѣренїе, что напрасно <hi rend="superscript">приводитъ</hi> онъ <del
       rend="overstrike">г<hi rend="superscript">нъ</hi> <persName ref="Елиашевич">Елї-<lb/>
-       яшевичъ</persName> приводитъ</del> <hi rend="superscript">себѣ</hi> въ помощь <del rend="overstrike">себѣ</del> состоявшїяся</l>
+       яшевичъ</persName> приводитъ</del> <hi rend="superscript">себѣ</hi> въ помощь <del rend="overstrike">себѣ</del>
+      состоявшїяся</l>
       <l>въ <orgName ref="Литовское_губернское_правление">губернскомъ правленїи</orgName> резолюцїи; поелику всякъ</l>
       <l>изъ <hi rend="superscript">тѣхъ же</hi> собственныхъ его <hi rend="superscript">словъ</hi> <del rend=
       "overstrike">выраженїй</del> удостовѣриться</l>
@@ -1753,8 +1764,8 @@
       дастъ нынѣ <del rend="overstrike">на тѣ резолюцїи</del></l>
       <l>о учиненїи тѣхъ резолюцїй <del rend="overstrike">прозбу</del> <hi rend="superscript">объясненїе</hi> <del rend=
       "overstrike">но не все</del></l>
-      <l><del rend="overstrike"><orgName ref="Литовское_губернское_правление">Губернское правленїе</orgName></del>. Благоволитъ <orgName ref=
-      "Литовский_надворный_суд">Надворный<lb/>
+      <l><del rend="overstrike"><orgName ref="Литовское_губернское_правление">Губернское правленїе</orgName></del>.
+      Благоволитъ <orgName ref="Литовский_надворный_суд">Надворный<lb/>
        судъ</orgName> <hi rend="superscript">и сїе</hi> разобрать <del rend="overstrike">то</del> подробно: господинъ
       со-</l>
       <l>вѣтникъ <hi rend="superscript"><persName ref="Елиашевич">Елїяшевичъ</persName></hi> есть издателемъ первой
@@ -1792,7 +1803,8 @@
       <l>я обширное въ поданной мною къ Его</l>
       <l>Сїятельству г<hi rend="superscript">ну</hi> <persName ref="Лопухин">генералъ прокурору</persName> проз-</l>
       <l>бѣ, представленной въ копїи въ <orgName ref="Литовский_надворный_суд">надвор-<lb/>
-       номъ судѣ</orgName>; <hi rend="superscript">и противъ онаго рѣшенїя</hi> пусть самъ г<hi rend="superscript">нъ</hi> совѣтникъ</l>
+       номъ судѣ</orgName>; <hi rend="superscript">и противъ онаго рѣшенїя</hi> пусть самъ г<hi rend="superscript"
+      >нъ</hi> совѣтникъ</l>
       <l><hi rend="superscript"><persName ref="Елиашевич">Елїяшевичъ</persName></hi> <del rend="overstrike">въ
       томъ</del> объяснится._</l>
     </p>
@@ -1802,7 +1814,8 @@
        мѣсяца февраля 1799 года</date> подписанная</l>
       <l>учинена по жалобѣ <placeName ref="Видзы">видзскаго</placeName> жителя</l>
       <l><persName ref="Гирш_Иоселиович">Гирши Јоселевича</persName> принесенной отъ имени</l>
-      <l><del rend="overstrike">якобы</del> кагала; <hi rend="superscript">но</hi> <del rend="overstrike">о чемъ слѣдуетъ изъя-</del></l>
+      <l><del rend="overstrike">якобы</del> кагала; <hi rend="superscript">но</hi> <del rend="overstrike">о чемъ
+      слѣдуетъ изъя-</del></l>
       <l><del rend="overstrike">сненїе.</del></l>
     </p>
     <p>
@@ -1817,7 +1830,8 @@
       <l>предъявляю видзкаго кагала свидѣтель-</l>
       <l>ство въ <date when="1798-07-25">25<hi rend="superscript">й</hi> день јюля 1798 года</date></l>
       <l>подписанное въ томъ, что оный кагалъ</l>
-      <l>никогда ему <del rend="overstrike">его <persName ref="Гирш_Иоселиович">Гиршу</persName></del> къ принесенїю та-</l>
+      <l>никогда ему <del rend="overstrike">его <persName ref="Гирш_Иоселиович">Гиршу</persName></del> къ принесенїю
+      та-</l>
       <l><del rend="overstrike">коваго</del> ковой жалобы или прозбы не</l>
       <l>уполномочивалъ; и <del rend="overstrike"><unclear>???</unclear> однако на</del></l>
       <l>сїе г<hi rend="superscript">нъ</hi> совѣтникъ <persName ref="Елиашевич">Елїяшевичъ</persName> <hi rend=
@@ -1859,7 +1873,8 @@
       <l>въ подлинникѣ. Но что касается до <unclear>выпирательства</unclear></l>
       <pb n="533-2"/>
       <l>г<hi rend="superscript">на</hi> совѣтника <persName ref="Елиашевич">Елїяшевича</persName> отъ знанїя</l>
-      <l><orgName ref="Хасиды">каролиновъ</orgName>, то благоволитъ <orgName ref="Литовский_надворный_суд">надворный судъ</orgName></l>
+      <l><orgName ref="Хасиды">каролиновъ</orgName>, то благоволитъ <orgName ref="Литовский_надворный_суд">надворный
+      судъ</orgName></l>
       <l>потребовать къ допросамъ <placeName ref="Вильна">виленскихъ</placeName></l>
       <l>жителей <persName>Боруха Мееровича</persName>, <persName>Лейбу Ароно-<lb/>
        вича</persName>, <persName>Абеля Самсоновича</persName>, <persName>Берку Мееровича</persName></l>
@@ -1883,7 +1898,8 @@
       <l>Дальше въ объясненїи своемъ г<hi rend="superscript">нъ</hi> совѣт-</l>
       <l>никъ <hi rend="superscript"><persName ref="Елиашевич">Елїяшевичъ</persName></hi> прописываетъ, что якобы самъ
       я</l>
-      <l><persName ref="Мовша_Ошерович">Ошеровичъ</persName> <hi rend="superscript">долженъ знать</hi> свою вину и худыя поступки</l>
+      <l><persName ref="Мовша_Ошерович">Ошеровичъ</persName> <hi rend="superscript">долженъ знать</hi> свою вину и худыя
+      поступки</l>
       <l><del rend="overstrike">знать долженъ</del>; а въ доказательство сего</l>
       <l>ссылается на рапортъ г<hi rend="superscript">на</hi> <persName ref="Капцевич">коменданта</persName></l>
       <l><date when="1799-02-09">февраля 9 числа 1799 года</date> къ его высо-</l>
@@ -1948,7 +1964,7 @@
       <pb n="534-2"/>
       <l>и не всѣ сполна, но <del rend="overstrike">во первыхъ</del> за на-</l>
       <l>чальствомъ <persName ref="Шимель_Абелевич">Шимеля Абелевича</persName>, <persName>Самсона<lb/>
-      Абрагамовича</persName> и прочихъ 2160 рублей, а</l>
+       Абрагамовича</persName> и прочихъ 2160 рублей, а</l>
       <l>а остальные 550 рублей въ недавномъ</l>
       <l>времени отрѣшеннымъ старшимъ</l>
       <l>уплатили; въ четвертыхъ, что таковый</l>
@@ -1956,7 +1972,7 @@
       <l>людямъ, но въ кагальной избѣ въ присуд-</l>
       <l>ствїи бывшаго въ то время недѣле-</l>
       <l>шнымъ председателемъ <persName>Бейнаса Аро-<lb/>
-      новича</persName> и кагальнаго <persName ref="Шимель_Абелевич">Шимеля Абелевича</persName></l>
+       новича</persName> и кагальнаго <persName ref="Шимель_Абелевич">Шимеля Абелевича</persName></l>
       <l>въ руки вѣрнику <persName ref="Зыскинд">Зыскину</persName> россїйскими</l>
       <l>ассигнацїями, щитая сторублевую асси-</l>
       <l>гнацїю на серебро по 71<hi rend="superscript">му</hi> рублю чрезъ</l>
@@ -2030,8 +2046,8 @@
       <l>данїи всѣ вышеупомянутые кагальные</l>
       <l>члены и не преждѣ хотелъ <persName ref="Шимель_Вульфович">Шимель</persName> присту-</l>
       <l>пать съ <orgName ref="Виленский_кагал">кагаломъ</orgName> къ договору, пока</l>
-      <l>не прибылъ въ заседанїе наибольшїй <unclear>??? ???</unclear><note place="end">плохая сохранность текста под реставрационной
-      заклейкой</note></l>
+      <l>не прибылъ въ заседанїе наибольшїй <unclear>??? ???</unclear><note place="end">плохая сохранность текста под
+      реставрационной заклейкой</note></l>
       <l>прїятель <persName>Мовша вульфовичъ</persName>, хотя жъ ту <unclear>???</unclear><note place="end">текст
       поврежден</note></l>
       <pb n="535-2"/>
