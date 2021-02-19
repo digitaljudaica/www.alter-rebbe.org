@@ -6,6 +6,11 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
+    <correspDesc>
+    <correspAction>
+      <persName ref="Фризель" role="addressee">Фризелю</persName>
+    </correspAction>
+  </correspDesc>
       <abstract>Объяснение <orgName ref="Виленский_кагал">виленского кагала</orgName>, адресованное гражданскому
       губернатору <persName ref="Фризель">Фризелю</persName>, о содержании письма, разосланного в поветовые кагалы и его
       переводе, выполненном <persName ref="Гирш_Иоселиович">Гиршем Иоселиовичем</persName></abstract>
@@ -23,7 +28,7 @@
       <l>Губернатору дѣйствительному статскому совѣтнику</l>
       <l>и кавалеру <persName ref="Фризель">Ивану Григорьевичу Фризелю</persName></l>
       <l><orgName ref="Виленский_кагал">виленскаго еврейскаго кагала</orgName></l>
-      <l>объzсненіе.</l>
+      <l>объясненіе.</l>
     </head>
     <p>
       <l><orgName ref="Виленский_кагал">Виленскій евреискій кагалъ</orgName> объяснилъ въ поданномъ прежде</l>
