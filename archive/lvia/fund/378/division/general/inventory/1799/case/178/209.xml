@@ -6,15 +6,12 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-    <correspDesc>
-    <correspAction>
-      <persName ref="Фризель" role="addressee">Фризелю</persName>
-    </correspAction>
-  </correspDesc>
       <abstract>Объяснение <orgName ref="Виленский_кагал">виленского кагала</orgName>, адресованное гражданскому
       губернатору <persName ref="Фризель">Фризелю</persName>, о содержании письма, разосланного в поветовые кагалы и его
       переводе, выполненном <persName ref="Гирш_Иоселиович">Гиршем Иоселиовичем</persName></abstract>
       <creation><date when="1799-01-27">Января 27 дня 1799 года</date></creation>
+      <correspDesc><correspAction><persName ref="Фризель" role="addressee">Фризелю</persName></correspAction>
+      </correspDesc>
     </profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
