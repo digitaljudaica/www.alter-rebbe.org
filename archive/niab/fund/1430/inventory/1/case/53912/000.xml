@@ -4,8 +4,9 @@
     <fileDesc><titleStmt><author/>
     <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
+    <profileDesc>
     <abstract><p>Незаполненный лист дела со штампом архива</p></abstract>
-    <profileDesc/>
+    </profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
     <pb n="000-1"/>
