@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc><titleStmt>
-      <author><persName>Гаврило Добрынинъ</persName></author>
+      <author><persName>Гаврило Добрынин</persName></author>
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
@@ -12,7 +12,7 @@
         местными властями поверки ревизских данных
       </p></abstract>
       <creation><date when="1797-08-14">августа 14 1797 г.</date></creation>
-      <correspDesc><correspAction><persName ref="Жегулин" role="addressee">Семену Семеновичу Жегулину</persName>
+      <correspDesc><correspAction><persName ref="Жегулин" role="addressee">Жегулину</persName>
       </correspAction></correspDesc>
     </profileDesc>
   </teiHeader>
