@@ -9,7 +9,7 @@
       <abstract><p>Титульный лист дела с архивными пометками и, вероятно, поздними вставками</p></abstract>
 </profileDesc>
   </teiHeader>
-  <text xml:lang="ru"><body><pb n="000-1"/></body></text>
+  <text xml:lang="ru"><body><pb n="000-1"/>
   <fw type="docNum">№ 140/170</fw>
   <fw type="docNum"><del rend="overstrike">№ 137</del></fw>
   <fw type="note" place="right">по <placeName ref="Могилевская_губерния">Могилевской губерніи</placeName></fw>
@@ -31,4 +31,5 @@
 <l>Справа<note place="end">"дело" на белорусском языке</note> <unclear>???</unclear> 44</l><note place="end">штамп госархива</note>
 </fw>
 <fw type="note" place="left margin">На 122 листахъ.</fw>
+    </body></text>
 </TEI>
