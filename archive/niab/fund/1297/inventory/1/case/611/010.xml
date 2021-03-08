@@ -5,7 +5,7 @@
     <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor></titleStmt></fileDesc>
     <profileDesc>
     <creation><date when="1825-09-20">20<hi rend="superscript">го</hi> сентября 1825</date></creation>
-      <abstract><p>Распоряжение частному приставу о доставлении в <placeName ref="Витебск">Витебск</placeName> на допрос <persName ref="miteler_rebe">Дов-Бера Шнеерсона</persName></p></abstract>
+      <abstract><p>Распоряжение частному приставу о доставлении в <placeName ref="Витебск">Витебск</placeName> на допрос <persName ref="mitteler-rebbe">Дов-Бера Шнеерсона</persName></p></abstract>
 </profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
@@ -25,7 +25,7 @@
 гилевской губерніи</placeName> в <placeName ref="Любавичи">м. Люба<lb/>
 вичахъ</placeName>, я рекомендую вашему</l>
 <l>благородію отправиться туда</l>
-<l>и предъявивъ ему, <persName ref="miteler_rebe">раввину</persName>, сіе</l>
+<l>и предъявивъ ему, <persName ref="mitteler-rebbe">раввину</persName>, сіе</l>
 <l>предписаніе, пригласить его приехать</l>
 <l>ко мнѣ въ <placeName ref="Витебск">Витебскъ</placeName> вмѣстѣ</l>
 <l>съ вами</l>
