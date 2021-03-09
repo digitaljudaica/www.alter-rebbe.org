@@ -11,7 +11,7 @@
     </correspAction>
   </correspDesc>
       <creation><date when="1825-10-??">октябрь 1825 года</date></creation>
-      <abstract><p>Рапорт частного пристава генерал-губернатору о состоянии и стоимости синагоги и ее оборудования в <placeName ref="ЛЮбавичи">Любавичах</placeName>, истории ее постройки, имеющихся в собрании <persName ref="мителер_ребе">Дов-Бера Шнеерсона</persName> книгах</p></abstract>
+      <abstract><p>Рапорт частного пристава генерал-губернатору о состоянии и стоимости синагоги и ее оборудования в <placeName ref="Любавичи">Любавичах</placeName>, истории ее постройки, имеющихся в собрании <persName ref="мителер_ребе">Дов-Бера Шнеерсона</persName> книгах</p></abstract>
 </profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
@@ -79,7 +79,7 @@
 <l>ономъ мѣстечкѣ состоитъ на жительствѣ се-</l>
 <l>мействъ еврейскихъ изъ секты М<unclear>???</unclear>й, но</l>
 <l>по ненахожденію таковыхъ въ <placeName ref="Любавичи">Любавичахъ</placeName> и по</l>
-<l><unclear>???</unclear><note place="end">нижний левый край поврежден, одно или два слова не читаются</note> <orgName ref="Хасиды,">хосодской секты</orgName>, приказомъ даннымъ</l>
+<l><unclear>???</unclear><note place="end">нижний левый край поврежден, одно или два слова не читаются</note> <orgName ref="Хасиды">хосодской секты</orgName>, приказомъ даннымъ</l>
 <pb n="014-1"/>
 <fw type="pageNum" place="right"><del rend="overstrike">15</del>.</fw>
 <fw type="pageNum" place="right">14</fw>
