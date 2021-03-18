@@ -5,7 +5,7 @@
     <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-    <abstract><p>Перевод на русский язык переписки <persName ref="мителер_ребе">Дов-Бера Шнеерсона</persName> и <persName ref="person">Арона Мовшевича Левита</persName></p></abstract></profileDesc>
+    <abstract><p>Перевод на русский язык переписки <persName ref="мителер_ребе">Дов-Бера Шнеерсона</persName> и <persName>Арона Мовшевича Левита</persName></p></abstract></profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
     <pb n="034-1"/>
