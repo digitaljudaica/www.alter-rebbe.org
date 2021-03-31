@@ -5,7 +5,8 @@
       <author><persName ref="Кисин_Симха">Симха Кисин</persName></author>
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
-    <profileDesc><abstract><p>
+    <profileDesc><creation><date when="1825-06-??">июнь 1825 года</date></creation>
+    <abstract><p>
       Отредактированная первая страница доноса <persName ref="Кисин_Симха">Симхи Кисина</persName>
     </p></abstract></profileDesc>
   </teiHeader>
