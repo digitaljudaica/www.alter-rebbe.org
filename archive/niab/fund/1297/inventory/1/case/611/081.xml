@@ -7,12 +7,11 @@
     </titleStmt></fileDesc>
     <profileDesc>
       <abstract><p>
-        Сообщение бабиновецкого уездного стряпчего (помощника прокурора) о направлении в три еврейские общины запросов
+        Сообщение бабиновецкого уездного стряпчего (помощника прокурора) губернскому прокурору о направлении в три еврейские общины запросов
         по делу <persName ref="мителер_ребе">Дов-Бера Шнеерсона</persName>
       </p></abstract>
       <creation><date when="1826-02-24">24 февраля 1826 года</date></creation>
-      <correspDesc><correspAction><persName role="addressee">Хованскому</persName></correspAction></correspDesc>
-    </profileDesc>
+         </profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
     <pb n="081-1"/>
