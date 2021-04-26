@@ -37,8 +37,8 @@
       <l>нѣсколько кратно роптанія по учиненной</l>
       <l>имъ ему досады, по секретнымъ причинамъ</l>
       <l>извѣстнымъ пріятелю нашему повѣрен-</l>
-      <l>ному почетному <persName ref="Пинхус_Шик">Пинхосу Шику<note place="end">ученику <persName ref="alter-rebbe">Шнеура
-      Залмана</persName></note></persName> <ref target="https://www.jewage.org/wiki/ru/Profile:P1344555056"
+      <l>ному почетному <persName ref="Пинхус_Шик">Пинхосу Шику<note place="end">ученику <persName ref="alter-rebbe"
+      >Шнеура Залмана</persName></note></persName> <ref target="https://www.jewage.org/wiki/ru/Profile:P1344555056"
       >[JewAge]</ref> и род-</l>
       <l>ному брату <persName>Хайму Абраму Шнееру</persName></l>
       <l>по которымъ сказаннымъ причинамъ удосто-</l>
@@ -86,7 +86,10 @@
       <fw type="note" place="left margin">Се-</fw>
       <l>вѣчной памяти предъ Богомъ слугамъ лю-</l>
       <l>бимомъ и избраннымъ его покойнаго отца</l>
-      <l><note type="gloss">|: блаженной памяти :|</note> <persName ref="alter-rebbe">Залмана Шнеера</persName></l>
+      <l>
+        <note type="gloss">|: блаженной памяти :|</note>
+        <persName ref="alter-rebbe">Залмана Шнеера</persName>
+      </l>
     </p>
     <p>
       <l>Равину <persName ref="мителер_ребе">Беркѣ Шнееру</persName>, женѣ и недоро</l>
@@ -97,7 +100,8 @@
        къ <hi rend="superscript"><unclear>Лее</unclear></hi></persName> 1000 руб дочери его зарученной<note place="end"
       >просватанной, обрученной</note> <persName>Мнухѣ<lb/>
        рохлѣ</persName> въ подарокъ 1000 руб. всѣ тѣ деньги</l>
-      <l>быть имѣютъ мòкованы<note place="end">вероятно, полонизм - "закреплены, оставлены на сохранение", makować</note> у упомянутаго</l>
+      <l>быть имѣютъ мòкованы<note place="end">вероятно, полонизм - "закреплены, оставлены на сохранение",
+      makować</note> у упомянутаго</l>
       <l><persName ref="Пинхус_Шик">Пинхоса</persName>, на которую сумму имѣетъ дать</l>
       <l>своеручную подписку въ томъ, что реченная</l>
       <l>сумма находится у него и отдавать</l>
@@ -215,8 +219,12 @@
       <l>во свидѣтельство положеніемъ и спра-</l>
       <l>ведливою обязанностію предъ Богомъ</l>
       <l>и слугою его любимымъ и избраннымъ</l>
-      <l><persName ref="alter-rebbe">покойномъ отце нашемъ</persName> <note type="gloss">|: Блаженной<lb/>
-      памяти :|</note> <persName ref="alter-rebbe">Залманомъ Шнееромъ</persName></l>
+      <l>
+        <persName ref="alter-rebbe">покойномъ отце нашемъ</persName>
+        <note type="gloss">|: Блаженной<lb/>
+         памяти :|</note>
+        <persName ref="alter-rebbe">Залманомъ Шнееромъ</persName>
+      </l>
       <l>имѣетъ сей документъ быть избере-</l>
       <l>женнымъ и запечатаннымъ дабы ни</l>
       <l>кто чужой не могъ его видить и былъ</l>
