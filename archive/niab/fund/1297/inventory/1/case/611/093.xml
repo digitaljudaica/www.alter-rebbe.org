@@ -23,15 +23,17 @@
     <fw type="pageNum" place="right"><del rend="overstrike">94</del></fw>
     <fw type="pageNum" place="right"><del rend="overstrike">1</del></fw>
     <fw type="note" place="left margin">Се</fw>
-          <head><l><emph rend="big">Его Сїятельству!</emph></l>
+    <head>
+      <l><emph rend="big">Его Сїятельству!</emph></l>
       <l>Господину витебскому, могилевскому, смо-</l>
       <l>ленскому и калужскому генералъ губерна-</l>
       <l>тору и кавалеру._</l>
       <l><emph rend="big">Рапортъ</emph>.</l>
       <l>бабиновицкаго</l>
       <l>уезднаго стря-</l>
-      <l>пчаго</l></head>
-        <opener place="left">
+      <l>пчаго</l>
+    </head>
+    <opener place="left">
       <l><fw type="docNum">№ 153<hi rend="superscript">и</hi></fw></l>
       <l><date when="1826-05-12">Маія 12. дня<lb/>
        1826<hi rend="superscript">го</hi> года.</date></l>
