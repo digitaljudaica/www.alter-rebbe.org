@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc><titleStmt><author/><editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
-    <profileDesc><p>Титульный лист архивного дела</p></profileDesc>
+    <profileDesc><abstract><p>Титульный лист архивного дела</p></abstract></profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
     <pb n="000a-1"/>
