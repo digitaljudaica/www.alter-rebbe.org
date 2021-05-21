@@ -6,13 +6,15 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction></correspDesc>
+      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction>
+      </correspDesc>
       <creation><date when="1841-04-05">5 апрѣля 1841</date></creation>
       <abstract><p>
-        Письмо главного начальника III отделения императорской канцелярии <persName ref="Бенкендорф_Александр_Христофорович">А.Х. Бенкендорфа</persName><note
-        place="end"><ref target="https://ru.wikipedia.org/wiki/Бенкендорф,_Александр_Христофорович">[Википедия]</ref>
-        </note> генерал-губернатору с требованием навести справки о <persName ref="Цемах_Цедек">Цемах-Цедеке</persName>
-        в связи с противодействием последнего правительственным мерам в отношении евреев
+        Письмо главного начальника III отделения императорской канцелярии <persName ref=
+        "Бенкендорф_Александр_Христофорович">А.Х. Бенкендорфа</persName><note place="end"><ref target=
+        "https://ru.wikipedia.org/wiki/Бенкендорф,_Александр_Христофорович">[Википедия]</ref></note> генерал-губернатору
+        с требованием навести справки о <persName ref="Цемах_Цедек">Цемах-Цедеке</persName> в связи с противодействием
+        последнего правительственным мерам в отношении евреев
       </p></abstract>
     </profileDesc>
   </teiHeader>
@@ -49,8 +51,8 @@
     </fw>
     <salute>
       <l>Милостивый Государь</l>
-      <l><persName ref="Дьяков">Петръ Николаевичъ</persName><note place="end">П.Н. Дьяков - с 1836 г. генерал-губернатор смоленский,
-      витебский и могилевский<ref target="https://ru.wikipedia.org/wiki/Дьяков,_Пётр_Николаевич"
+      <l><persName ref="Дьяков">Петръ Николаевичъ</persName><note place="end">П.Н. Дьяков - с 1836 г. генерал-губернатор
+      смоленский, витебский и могилевский<ref target="https://ru.wikipedia.org/wiki/Дьяков,_Пётр_Николаевич"
       >[Википедия]</ref></note>.</l>
     </salute>
     <p>
