@@ -6,8 +6,8 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-      <correspDesc><correspAction><persName ref=
-        "Дьяков" role="addressee">Дьякову</persName></correspAction></correspDesc>
+      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction>
+      </correspDesc>
       <creation><date when="1841-06-05">5 июня 1841 г.</date></creation>
       <abstract><p>
         Рапорт исполнявшего обязанности могилевского гражданского губернатора со сведениями о <persName ref=
@@ -20,7 +20,8 @@
     <fw type="note" place="right"><emph rend="underline">Секретно.</emph></fw>
     <fw type="pageNum" place="right">8.</fw>
     <fw type="note" place="left margin">ловъ</fw>
-    <fw type="note">Сообщить <unclear>??? ???</unclear> <date when="1843-06-07">7 јюня</date></fw><note place="end">резолюция записана карандашом</note>
+    <fw type="note">Сообщить <unclear>??? ???</unclear> <date when="1843-06-07">7 јюня</date></fw><note place="end"
+    >резолюция записана карандашом</note>
     <opener place="left">
       <l><emph rend="big">Управленіе</emph></l>
       <l><emph rend="big">Генералъ-Губернатора</emph></l>
@@ -39,8 +40,7 @@
       <l>господину генералъ-губерна-</l>
       <l>тору смоленскому, витебскому</l>
       <l>и могилевскому, генералъ</l>
-      <l>адьютанту и кавалеру <persName ref=
-        "Дьяков">Пе-<lb/>
+      <l>адьютанту и кавалеру <persName ref="Дьяков">Пе-<lb/>
        тру Николаевичу Дьякову</persName></l>
     </salute>
     <p>
