@@ -9,7 +9,8 @@
       <creation><date when="1841-04-14">14 апреля 1841</date></creation>
       <abstract><p>
         Требование генерал-губернатора к гражданским витебскому и могилевскому губернаторам о дознании в отношении
-        <persName ref="Цемах_Цедек">Цемах-Цедека</persName> по распоряжению <persName ref="Бенкендорф_Александр_Христофорович">Бенкендорфа</persName>
+        <persName ref="Цемах_Цедек">Цемах-Цедека</persName> по распоряжению <persName ref=
+        "Бенкендорф_Александр_Христофорович">Бенкендорфа</persName>
       </p></abstract>
     </profileDesc>
   </teiHeader>
@@ -24,16 +25,16 @@
       <l><fw type="docNum">>№ 54<hi rend="superscript">й</hi></fw></l>
       <l><date when="1841-04-14">14. апрѣля 1841</date></l>
       <l>въ <placeName ref="Витебск">Витебскѣ</placeName></l>
-          </opener>
+    </opener>
     <head>По <fw type="docNum">№ 45</fw></head>
-    <salute>
-      <fw type="note" place="left margin"><l>Господину состоящему</l>
-      <l>въ должности витебскаго</l>
-      <l>гражданскаго губернатора (х)<note place="end">ссылка на дополнительные строки на левом поле страницы</note></l></fw>
-    </salute>
+    <salute><fw type="note" place="left margin">
+        <l>Господину состоящему</l>
+        <l>въ должности витебскаго</l>
+        <l>гражданскаго губернатора (х)<note place="end">ссылка на дополнительные строки на левом поле страницы</note></l>
+      </fw></salute>
     <l>(х)Такого же содержанія</l>
-      <l>могилевскому гражд.</l>
-      <l>губернатору <fw type="docNum">№ 55<hi rend="superscript">й</hi></fw></l>
+    <l>могилевскому гражд.</l>
+    <l>губернатору <fw type="docNum">№ 55<hi rend="superscript">й</hi></fw></l>
     <p>
       <l>Шефъ корпуса жан-</l>
       <l>дармовъ, г. генералъ-адъ-</l>
