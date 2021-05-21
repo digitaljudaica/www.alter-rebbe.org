@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc><titleStmt>
-      <author><persName>Дьяков</persName></author>
+      <author><persName ref="Дьяков">Дьяков</persName></author>
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
@@ -29,11 +29,11 @@
     <salute>
       <fw type="note" place="left margin"><l>Господину состоящему</l>
       <l>въ должности витебскаго</l>
-      <l>гражданскаго губернатора (х)<note place="end">ссылка на дополнительные строки на левом поле страницы</note></l>
+      <l>гражданскаго губернатора (х)<note place="end">ссылка на дополнительные строки на левом поле страницы</note></l></fw>
     </salute>
     <l>(х)Такого же содержанія</l>
       <l>могилевскому гражд.</l>
-      <l>губернатору <fw type="docNum">№ 55<hi rend="superscript">й</hi></fw></l></fw>
+      <l>губернатору <fw type="docNum">№ 55<hi rend="superscript">й</hi></fw></l>
     <p>
       <l>Шефъ корпуса жан-</l>
       <l>дармовъ, г. генералъ-адъ-</l>
