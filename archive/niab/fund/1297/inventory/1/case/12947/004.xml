@@ -6,7 +6,8 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction></correspDesc>
+      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction>
+      </correspDesc>
       <creation><date when="1841-04-27">27 апреля 1841</date></creation>
       <abstract><p>
         Сообщение витебского гражданского губернатора генерал-губернатору о статусе и месте жительства <persName ref=
