@@ -2,13 +2,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc><titleStmt>
-      <author><persName ref=
-        "Дьяков">Дьяков</persName></author>
+      <author><persName ref="Дьяков">Дьяков</persName></author>
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-      <correspDesc><correspAction><persName ref=
-        "Уваров" role="addressee">Уварову</persName></correspAction></correspDesc>
+      <correspDesc><correspAction><persName ref="Уваров" role="addressee">Уварову</persName></correspAction>
+      </correspDesc>
       <creation><date when="1843-03-24">24 марта 1843</date></creation>
       <abstract><p>
         Черновик ответа белорусского генерал-губернатора министру просвещения о приемлемости кандидатуры <persName ref=
@@ -37,8 +36,8 @@
     <salute>
       <l>Господину министру</l>
       <l>народнаго просвещенія</l>
-      </salute>
-      <p>
+    </salute>
+    <p>
       <l>На отношеніе ко</l>
       <l>мнѣ Вашего Высокопре-</l>
       <l>восходительства отъ <date when="1841-03-14">14<lb/>
