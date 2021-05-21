@@ -6,7 +6,8 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction></correspDesc>
+      <correspDesc><correspAction><persName ref="Дьяков" role="addressee">Дьякову</persName></correspAction>
+      </correspDesc>
       <creation><date when="1843-03-14">14 марта 1843 года</date></creation>
       <abstract><p>
         Запрос министра народного просвещения к генерал-губернатору о возможности включения <persName ref="Цемах_Цедек"
@@ -41,9 +42,9 @@
       <l><unclear>???</unclear><note place="end">резолюция записана карандашом</note></l>
     </fw>
     <salute>
-    <l>Господину витебскому, смоленско-</l>
-    <l>му и могилевскому генералъ-гу-</l>
-    <l>бернатору</l>
+      <l>Господину витебскому, смоленско-</l>
+      <l>му и могилевскому генералъ-гу-</l>
+      <l>бернатору</l>
     </salute>
     <p>
       <l>Приступая къ исполненію</l>
