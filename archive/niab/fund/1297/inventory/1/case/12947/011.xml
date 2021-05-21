@@ -2,18 +2,19 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc><titleStmt>
-      <author><persName ref=
-        "Дьяков">Дьяков</persName></author>
+      <author><persName ref="Дьяков">Дьяков</persName></author>
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-      <correspDesc><correspAction><persName ref="Бенкендорф_Александр_Христофорович" role="addressee">Бенкендорфу</persName></correspAction></correspDesc>
+      <correspDesc><correspAction><persName ref="Бенкендорф_Александр_Христофорович" role="addressee"
+      >Бенкендорфу</persName></correspAction></correspDesc>
       <creation><date when="1841-06-10">10 июня 1841</date></creation>
       <abstract><p>
-        Рапорт генерал-губернатора <persName ref="Бенкендорф_Александр_Христофорович">Бенкендорфу</persName> с изложением собранных сведений о <persName ref=
-        "Цемах_Цедек">Цемах-Цедеке</persName>.<note place="end">документ текстуально в основном совпадает с ранее опубликованным вариантом
-        <ref target="https://lechaim.ru/ARHIV/207/arhiv.htm">[Лехаим]</ref> и, вероятно, является, черновиком
-        отправленного рапорта</note> 
+        Рапорт генерал-губернатора <persName ref="Бенкендорф_Александр_Христофорович">Бенкендорфу</persName> с
+        изложением собранных сведений о <persName ref="Цемах_Цедек">Цемах-Цедеке</persName>.<note place="end">документ
+        текстуально в основном совпадает с ранее опубликованным вариантом <ref target=
+        "https://lechaim.ru/ARHIV/207/arhiv.htm">[Лехаим]</ref> и, вероятно, является, черновиком отправленного
+        рапорта</note>
       </p></abstract>
     </profileDesc>
   </teiHeader>
