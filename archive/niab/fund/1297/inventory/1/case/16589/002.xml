@@ -20,11 +20,11 @@
     <pb n="002-1"/>
     <fw type="pageNum" place="right">2</fw>
     <opener place="left">
-<l><head>По <fw type="docNum">№ 8977</fw>.</head></l>
-<l><date when="1846-07-24">24 јюля 1846</date></l>
-<l><fw type="docNum">№ 7353</fw>.</l>
-<l><placeName ref="Витебск">Витебскъ</placeName></l>
-</opener>
+      <l><head>По <fw type="docNum">№ 8977</fw>.</head></l>
+      <l><date when="1846-07-24">24 јюля 1846</date></l>
+      <l><fw type="docNum">№ 7353</fw>.</l>
+      <l><placeName ref="Витебск">Витебскъ</placeName></l>
+    </opener>
     <salute>
       <l>Господину состоящему въ долж-</l>
       <l>ности могилев. гражданскаго губерна-</l>
