@@ -3,8 +3,11 @@
   <teiHeader>
     <fileDesc><titleStmt><author/></titleStmt></fileDesc>
     <profileDesc>
-            <creation><date when="1820-10-25">25 октября 1820 года</date></creation>
-      <abstract><p>Рапорт ксендза <persName>Сиодловского</persName>, представленный в Могилевскую римско-католическую духовную консисторию (на польском языке)</p></abstract>
+      <creation><date when="1820-10-25">25 октября 1820 года</date></creation>
+      <abstract><p>
+        Рапорт ксендза <persName>Сиодловского</persName>, представленный в Могилевскую римско-католическую духовную
+        консисторию (на польском языке)
+      </p></abstract>
     </profileDesc>
   </teiHeader>
   <text xml:lang="ru"><body>
