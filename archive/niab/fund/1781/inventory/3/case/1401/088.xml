@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc><titleStmt><author/></titleStmt></fileDesc>
-    <profileDesc/>
-  </teiHeader>
+    <fileDesc><titleStmt><author><persName>Сиодловский</persName></author>
+    </titleStmt></fileDesc>
+    <profileDesc>
+      <creation><date when="1820-10-25">25 октября 1820 года</date></creation>
+      <abstract><p>Отчет ксендза <persName>Сиодловского</persName> (на латинском языке</p></abstract>
+    </profileDesc>
+</teiHeader>
   <text xml:lang="ru"><body>
     <pb n="088-1"/>
-    <pb n="088-2" missing="true"/>
+        <pb n="088-2" missing="true"/>
   </body></text>
 </TEI>
