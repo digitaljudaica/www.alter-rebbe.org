@@ -6,13 +6,9 @@
       <editor role="transcriber"><persName ref="VK">Василий Когаловский</persName></editor>
     </titleStmt></fileDesc>
     <profileDesc>
-          <correspDesc>
-    <correspAction>
-      <persName ref="Обольянинов" role="addressee">Богушу-Сестренцевичу</persName>
-    </correspAction>
-  </correspDesc>
-      <creation>
-      <date when="1820-08-13">13 августа 1820 года</date></creation>
+      <correspDesc><correspAction><persName ref="Обольянинов" role="addressee">Богушу-Сестренцевичу</persName>
+      </correspAction></correspDesc>
+      <creation><date when="1820-08-13">13 августа 1820 года</date></creation>
       <abstract><p>
         Сообщение витебского гражданского губернатора митрополиту римско-католических церквей <persName
         >Богушу-Сестренцевичу</persName> <ref target="https://ru.wikipedia.org/wiki/Богуш-Сестренцевич,_Станислав"
