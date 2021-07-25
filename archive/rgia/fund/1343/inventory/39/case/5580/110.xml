@@ -332,5 +332,7 @@
         <cell>4</cell>
       </row>
     </table>
+    <pb n="112-1"/>
+    <pb n="112-2" missing="true" empty="true"/>
   </body></text>
 </TEI>
