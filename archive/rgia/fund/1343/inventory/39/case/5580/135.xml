@@ -8,7 +8,7 @@
       <abstract><p>Отпечатанная грамота о возведении <persName ref="Цемах_Цедек">Менахема Менделя Шнеерсона</persName> со всеми потомками в потомственное почетное гражданство</p></abstract>
 </profileDesc>
   </teiHeader>
-  <text xml:lang="ru"><body><pb n="135-1"/></body></text>
+  <text xml:lang="ru"><body><pb n="135-1"/>
   <fw type="pageNum" place="left">134 об</fw><note place="end">поздняя карандашная архивная пометка</note>
   <fw type="pageNum" place="right">135</fw>
   <p>
@@ -34,4 +34,5 @@
 <l>Сенаторъ и кавалеръ <persName>Елпидифор Зуровъ</persName></l>
 <l>Исправляющій должность герольдмейстера и кавалеръ <persName>Философовъ</persName></l>
 </p>
+    </body></text>
 </TEI>
