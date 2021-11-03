@@ -14,9 +14,8 @@ enableFeaturePreview('VERSION_CATALOGS')
 enableFeaturePreview('TYPESAFE_PROJECT_ACCESSORS') // doesn't work with project names like 'opentorah-XXX' :(
 
 final String scalaVersion = '3.1.1-RC1'
-final String scalaLibrary = 'org.scala-lang:scala3-library_3'
 
-final String opentorahVersion  = '0.4.0'
+final String opentorahVersion  = '0.4.1-SNAPSHOT'
 
 dependencyResolutionManagement {
   repositories {
